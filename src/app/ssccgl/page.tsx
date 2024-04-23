@@ -18,14 +18,14 @@ function SSCCGL() {
         <Tab key="math" title="Maths">
           <Card>
             <CardBody>
-             <CardHoverEffectDemo data={Mathsdata}/>
+             <CardHoverEffectDemo items={Mathsdata}/>
             </CardBody>
           </Card>  
         </Tab>
         <Tab key="eng" title="English">
           <Card>
             <CardBody>
-              <CardHoverEffectDemo data={EnglishData}/>
+              <CardHoverEffectDemo items={EnglishData}/>
             </CardBody>
           </Card>  
         </Tab>
@@ -46,7 +46,7 @@ function SSCCGL() {
         <Tab key="current" title="Current Affairs">
           <Card>
             <CardBody>
-             <CardHoverEffectDemo data={CurrentAffairs}/>
+             <CardHoverEffectDemo items={CurrentAffairs}/>
             </CardBody>
           </Card>  
         </Tab>
