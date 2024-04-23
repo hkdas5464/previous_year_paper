@@ -120,7 +120,7 @@ export const FadeInDiv = ({
           className={cn("w-full mh-full absolute top-0 left-0", className)}
         >
           {tab.content}
-          <CardHoverEffectDemo data={tab.data}/>
+          <CardHoverEffectDemo items={tab.data}/>
         </motion.div>
       ))}
     </div>
