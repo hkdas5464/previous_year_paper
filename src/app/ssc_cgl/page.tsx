@@ -8,7 +8,7 @@ import  {CurrentAffairs, EnglishData, Mathsdata}  from "./data";
 
 
 
-function page() {
+function SSCCGL() {
   return (
     <div className="max-w-4xl mx-auto pb-40 bg-black">
       <p className="text-2xl mt-20 md:text-4xl mb-5 lg:text-7xl text-white font-bold inter-var text-center">
@@ -58,7 +58,6 @@ function page() {
   )
 }
 
-export default page
-
+export default SSCCGL
 
 
