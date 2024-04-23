@@ -1,5 +1,5 @@
 import { HoverEffect } from "../components/ui/card-hover-effect";
-import { English } from "./ssc_cgl/data";
+
 
 export function CardHoverEffectDemo({data}) {
   return (
