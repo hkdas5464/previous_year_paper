@@ -36,7 +36,7 @@ export default function Home() {
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <Link
-          href={"ssc_cgl"}
+          href={"ssccgl"}
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         
           rel="noopener noreferrer"
@@ -53,7 +53,7 @@ export default function Home() {
         </Link>
 
         <Link
-          href="/ssc_cpo"
+          href="/ssccpo"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
       
           rel="noopener noreferrer"
@@ -70,7 +70,7 @@ export default function Home() {
         </Link>
 
         <Link
-          href={"ssc_chsl"}
+          href={"sscchsl"}
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
       
           rel="noopener noreferrer"
@@ -87,7 +87,7 @@ export default function Home() {
         </Link>
 
         <Link
-          href={"ssc_mts"}
+          href={"sscmts"}
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
     
           rel="noopener noreferrer"
@@ -103,7 +103,7 @@ export default function Home() {
           </p>
         </Link>
         <Link
-          href="/rrb_alp"
+          href="/rrbalp"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         
           rel="noopener noreferrer"
