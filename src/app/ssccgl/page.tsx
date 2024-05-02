@@ -2,7 +2,7 @@
 import React from 'react'
 import { CardHoverEffectDemo } from '../cardhover';
 import {Tabs, Tab, Card, CardBody} from "@nextui-org/react";
-import  {CurrentAffairs, EnglishData, Mathsdata}  from "./data";
+import  {CurrentAffairs, EnglishData, Mathsdata, Reasoning}  from "./data";
 
 
 
@@ -32,7 +32,7 @@ function SSCCGL() {
         <Tab key="res" title="Resoning">
           <Card>
             <CardBody>
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <CardHoverEffectDemo items={Reasoning}/>
             </CardBody>
           </Card>  
         </Tab>

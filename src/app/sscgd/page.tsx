@@ -6,11 +6,11 @@ import  {CurrentAffairs, EnglishData, Mathsdata, Reasoning}  from "./data";
 
 
 
-function SSCMTS() {
+function SSCGD() {
   return (
     <div className="max-w-4xl mx-auto pb-40 bg-black">
       <p className="text-2xl mt-20 md:text-4xl mb-5 lg:text-7xl text-white font-bold inter-var text-center">
-        SSC MTS
+        SSC GD
       </p>
       
       <div className="flex w-full flex-col">
@@ -56,6 +56,6 @@ function SSCMTS() {
   )
 }
 
-export default SSCMTS
+export default SSCGD
 
 
