@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "../../../app/globals.css";
+// import "../../../app/globals.css";
 import './styles.module.css';
 import SideNav from "@/app/dashboard/sidenav";
 
