@@ -4,8 +4,8 @@ import Link from "next/link";
 import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
 import { ThemeSwitcher } from "@/components/ui/ThemeSwitcher";
 import MyNavbar from "./Navbar";
-
-export default function Home() {
+import Home from './../../mypages/p/[photoId]'
+export default function MyHome() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-20">
       <div className="flex w-full flex-col">
@@ -146,7 +146,7 @@ export default function Home() {
             <Tab key="notes" title="Notes">
               <Card>
                 <CardBody>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{/* <Home/> */}
                 </CardBody>
               </Card>
             </Tab>
