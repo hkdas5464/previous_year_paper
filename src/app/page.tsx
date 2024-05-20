@@ -4,7 +4,6 @@ import Link from "next/link";
 import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
 import { ThemeSwitcher } from "@/components/ui/ThemeSwitcher";
 import MyNavbar from "./Navbar";
-import Home from './../../mypages/p/[photoId]'
 export default function MyHome() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-20">
