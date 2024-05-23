@@ -157,7 +157,7 @@ export default function MyHome() {
 
                       rel="noopener noreferrer"
                     >
-                      <h2 className="mb-3 text-2xl font-semibold">
+                      <h2 className="mb-3 text-2xl font-semibold text-blue">
                         Parmar_SSC
                       </h2>
                       <p className="m-0 max-w-[30ch] text-sm opacity-50">
@@ -171,7 +171,7 @@ export default function MyHome() {
 
                       rel="noopener noreferrer"
                     >
-                      <h2 className="mb-3 text-2xl font-semibold">
+                      <h2 className="mb-3 text-2xl font-semibold text-blue">
                         GK_GS_BOOK
                       </h2>
                       <p className="m-0 max-w-[30ch] text-sm opacity-50">
