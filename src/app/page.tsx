@@ -8,26 +8,6 @@ import { cn } from "@/utils/cn";
 
 
 
-export const Highlight = ({
-  children,
-  className,
-}: {
-  children: React.ReactNode;
-  className?: string;
-}) => {
-  return (
-    <span
-      className={cn(
-        "font-bold  text-blue-700 dark:bg-emerald-700/[0.2]  px-1 py-0.5",
-        className
-      )}
-    >
-      {children}
-    </span>
-  );
-};
-
-
 
 export default function MyHome() {
   return (
@@ -178,7 +158,7 @@ export default function MyHome() {
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold">
-                        <Highlight>Parmar_SSC</Highlight>
+                        Parmar_SSC
                       </h2>
                       <p className="m-0 max-w-[30ch] text-sm opacity-50">
                         Find in-depth information about Next.js features and API.
@@ -192,7 +172,7 @@ export default function MyHome() {
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold">
-                        <Highlight>GK_GS_BOOK</Highlight>
+                        GK_GS_BOOK
                       </h2>
                       <p className="m-0 max-w-[30ch] text-sm opacity-50">
                         Find in-depth information about Next.js features and API.
