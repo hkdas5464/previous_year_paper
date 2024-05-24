@@ -16,6 +16,11 @@ export const Gkbook = [
         description: "YCT- NCERT GK 2023-24",
         title: 'YCT- NCERT GK 2023-24',
         link: "https://drive.google.com/file/d/1VQsylPMJ60qAqUoGqwPdEuc3cGiqDVHK/view?usp=sharing"
+    },
+    {
+        description: "G.S.POINTER Rapid Fire 25000 By Rexstar",
+        title: 'G.S.POINTER Rapid Fire',
+        link: "https://drive.google.com/file/d/1wzSwWfFnNXPIoe9tqnEmXE18W8XeWATf/view?usp=sharing"
     }]
 
 export const GK_GS = [{

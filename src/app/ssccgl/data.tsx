@@ -13,6 +13,11 @@ interface Subjects {
 
 export const English = [
     {
+        description: "SSC CGL 2023 COMPLETE MATHS COMPILATION (ENGLISH)",
+        title: 'SSC CGL 2023',
+        link: "https://drive.google.com/file/d/13KwtRUwU7vV-4JbOTXtCXKkpbgxEde_I/view?usp=sharing"
+    },
+    {
         description: "ALGEBRA SSC CGL 2023 T-1 all 88 Questions",
         title: 'ALGEBRA',
         link: "https://drive.google.com/file/d/1WsGzdRA-cWcVbFCYG2pN88aELsnRr4_F/view?usp=sharing"

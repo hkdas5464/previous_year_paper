@@ -26,7 +26,7 @@ export default function MyHome() {
               rel="noopener noreferrer"
             >
               By{" "}
-              <h2>Harendra Kumar</h2>
+              <p className="text-blue-600">Harendra Kumar</p>
             </a>
           </div>
         </div>
@@ -151,20 +151,7 @@ export default function MyHome() {
               <Card>
                 <CardBody>
                 <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-6xl lg:grid-cols-5 lg:text-left">
-                    <Link
-                      href={"parmar"}
-                      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
-                      rel="noopener noreferrer"
-                    >
-                      <h2 className="mb-3 text-2xl font-semibold text-blue">
-                        Parmar_SSC
-                      </h2>
-                      <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                        Find in-depth information about Next.js features and API.
-                      </p>
-                    </Link>
-
+                  
                     <Link
                       href={"gk_books"}
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -172,7 +159,7 @@ export default function MyHome() {
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold text-blue">
-                        GK_GS_BOOK
+                       <p className="text-blue-600">  GK_GS_BOOK </p>
                       </h2>
                       <p className="m-0 max-w-[30ch] text-sm opacity-50">
                         Find in-depth information about Next.js features and API.
@@ -180,8 +167,19 @@ export default function MyHome() {
                     </Link>
 
 
-               
+                    <Link
+                      href={"parmar"}
+                      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
 
+                      rel="noopener noreferrer"
+                    >
+                      <h2 className="mb-3 text-2xl font-semibold text-blue">
+                       <p className="text-blue-600">  Parmar_SSC </p>
+                      </h2>
+                      <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        Find in-depth information about Next.js features and API.
+                      </p>
+                    </Link>
                   
 
                     
