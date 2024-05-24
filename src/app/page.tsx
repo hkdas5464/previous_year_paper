@@ -8,26 +8,6 @@ import { cn } from "@/utils/cn";
 
 
 
-export const Highlight = ({
-  children,
-  className,
-}: {
-  children: React.ReactNode;
-  className?: string;
-}) => {
-  return (
-    <span
-      className={cn(
-        "font-bold  text-blue-700 dark:bg-emerald-700/[0.2]  px-1 py-0.5",
-        className
-      )}
-    >
-      {children}
-    </span>
-  );
-};
-
-
 
 export default function MyHome() {
   return (
@@ -46,7 +26,7 @@ export default function MyHome() {
               rel="noopener noreferrer"
             >
               By{" "}
-              <h2>Harendra Kumar</h2>
+              <p className="text-blue-600">Harendra Kumar</p>
             </a>
           </div>
         </div>
@@ -171,28 +151,15 @@ export default function MyHome() {
               <Card>
                 <CardBody>
                 <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-6xl lg:grid-cols-5 lg:text-left">
-                    <Link
-                      href={"parmar"}
-                      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
-                      rel="noopener noreferrer"
-                    >
-                      <h2 className="mb-3 text-2xl font-semibold">
-                        <Highlight>Parmar_SSC</Highlight>
-                      </h2>
-                      <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                        Find in-depth information about Next.js features and API.
-                      </p>
-                    </Link>
-
+                  
                     <Link
                       href={"gk_books"}
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
 
                       rel="noopener noreferrer"
                     >
-                      <h2 className="mb-3 text-2xl font-semibold">
-                        <Highlight>GK_GS_BOOK</Highlight>
+                      <h2 className="mb-3 text-2xl font-semibold text-blue">
+                       <p className="text-blue-600">  GK_GS_BOOK </p>
                       </h2>
                       <p className="m-0 max-w-[30ch] text-sm opacity-50">
                         Find in-depth information about Next.js features and API.
@@ -200,8 +167,19 @@ export default function MyHome() {
                     </Link>
 
 
-               
+                    <Link
+                      href={"parmar"}
+                      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
 
+                      rel="noopener noreferrer"
+                    >
+                      <h2 className="mb-3 text-2xl font-semibold text-blue">
+                       <p className="text-blue-600">  Parmar_SSC </p>
+                      </h2>
+                      <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        Find in-depth information about Next.js features and API.
+                      </p>
+                    </Link>
                   
 
                     
