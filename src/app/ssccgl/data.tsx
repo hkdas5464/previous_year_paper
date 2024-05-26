@@ -281,6 +281,11 @@ export const CurrentAffairs = [{
 
 export const EnglishData = [
     {
+        description: "TARUN_GROVER_PAID_ENGLISH_HAND_WRITTEN_NOTES_PDF",
+        title: 'TARUN_GROVER_PAID_ENGLISH',
+        link: "https://drive.google.com/file/d/19u77aVf6idfJch-JBbbJU303yNMJPbFM/view?usp=sharing"
+    },
+    {
         description: "Idioms_Book_for_SSC_CPO,_CHSL,_CGL",
         title: 'Idioms_Book_for_SSC',
         link: "https://drive.google.com/file/d/1BmztFAtnQOvNFWJXp9Q7rwBJEVwSGKv-/view?usp=sharing"
