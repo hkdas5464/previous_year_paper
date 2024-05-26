@@ -2,7 +2,7 @@
 import React from 'react'
 import { CardHoverEffectDemo } from '../cardhover';
 import {Tabs, Tab, Card, CardBody} from "@nextui-org/react";
-import  { EnglishData, Englishrule, Reasoning}  from "./data";
+import  { Englishrule, MathsData, Reasoning}  from "./data";
 
 
 
@@ -25,7 +25,7 @@ function Rules() {
         <Tab key="maths" title="Maths">
           <Card>
             <CardBody>
-              {/* <CardHoverEffectDemo items={EnglishData}/> */}
+              <CardHoverEffectDemo items={MathsData}/>
             </CardBody>
           </Card>  
         </Tab>

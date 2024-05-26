@@ -213,32 +213,15 @@ export const CurrentAffairs = [{
 }
 ]
 
-export const EnglishData = [
+export const MathsData = [
     {
-        description: "Idioms_Book_for_SSC_CPO,_CHSL,_CGL",
-        title: 'Idioms_Book_for_SSC',
-        link: "https://drive.google.com/file/d/1BmztFAtnQOvNFWJXp9Q7rwBJEVwSGKv-/view?usp=sharing"
+        description: "Maths Concept King Book",
+        title: 'Maths Concept King Book',
+        link: "https://drive.google.com/file/d/1R8acU7ymFVApIH9hOs5lW35E87zByvBv/view?usp=sharing"
     },
     {
-    description: "English topic-wise SSC CPO 2023 T-1_img_RBE_compressed",
-    title: 'English All',
-    link: "https://drive.google.com/file/d/10zHzVqk9XqnR8Q7FPp0SAZX2AX6-Qcfb/view?usp=sharing"
-},
-{
-    description: "Last 5 Years IDIOMS",
-    title: 'IDIOMS',
-    link: "https://drive.google.com/file/d/15dYP18h4MFoJ5J0HF1rQRud_hvLocyV5/view?usp=sharing"
-}
-    ,
-{
-    description: "IB ACIO 2024 complete solution eBook",
-    title: 'IB ACIO 2024',
-    link: "https://drive.google.com/file/d/14mq4sP2RDc781MMpHX2eEkCz5lamJg-A/view?usp=sharing"
-}
-    ,
-{
-    description: "IB ACIO 2024 Complete Vocab eBook",
-    title: 'IB ACIO VOCAB',
-    link: "https://drive.google.com/file/d/1vV2vfbqjDja5gI2twErSretHrPeeVRlV/view?usp=sharing"
+    description: "Inspector_chalisa",
+    title: 'Inspector_chalisa',
+    link: "https://drive.google.com/file/d/1Qqjc_RoLcTvLtxGCBvuQEDD_gQhNk2gq/view?usp=sharing"
 }
 ]
