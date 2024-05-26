@@ -220,8 +220,13 @@ export const MathsData = [
         link: "https://drive.google.com/file/d/1R8acU7ymFVApIH9hOs5lW35E87zByvBv/view?usp=sharing"
     },
     {
-    description: "Inspector_chalisa",
-    title: 'Inspector_chalisa',
-    link: "https://drive.google.com/file/d/1Qqjc_RoLcTvLtxGCBvuQEDD_gQhNk2gq/view?usp=sharing"
-}
+        description: "Inspector_chalisa",
+        title: 'Inspector_chalisa',
+        link: "https://drive.google.com/file/d/1Qqjc_RoLcTvLtxGCBvuQEDD_gQhNk2gq/view?usp=sharing"
+    },
+    {
+        description: "Maths Formula Book By Aditya Ranjan",
+        title: 'Maths Formula Book',
+        link: "https://drive.google.com/file/d/1RCN1H-ftPsHvQMvnJ_5fqcarRHR3lg4e/view?usp=sharing"
+    }
 ]
