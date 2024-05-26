@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
@@ -6,16 +6,12 @@ import { ThemeSwitcher } from "@/components/ui/ThemeSwitcher";
 import MyNavbar from "./Navbar";
 import { cn } from "@/utils/cn";
 
-
-
-
 export default function MyHome() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-20">
       <div className="flex w-full flex-col">
         <div className="z-10 w-full max-w-6xl items-center justify-between font-mono text-sm lg:flex">
-          <p >
-
+          <p>
             {/* <code className="font-mono font-bold">src/app/page.tsx</code> */}
           </p>
           <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
@@ -25,8 +21,7 @@ export default function MyHome() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{" "}
-              <p className="text-blue-600">Harendra Kumar</p>
+              By <p className="text-blue-600">Harendra Kumar</p>
             </a>
           </div>
         </div>
@@ -51,7 +46,6 @@ export default function MyHome() {
                     <Link
                       href={"videos/maths"}
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold">
@@ -68,7 +62,6 @@ export default function MyHome() {
                     <Link
                       href="videos/english"
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold">
@@ -78,13 +71,13 @@ export default function MyHome() {
                         </span>
                       </h2>
                       <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                        - BY Neetu Mam         </p>
+                        - BY Neetu Mam{" "}
+                      </p>
                     </Link>
 
                     <Link
                       href={"videos/geography"}
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold">
@@ -94,13 +87,13 @@ export default function MyHome() {
                         </span>
                       </h2>
                       <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                        By Madhukar Sir                      </p>
+                        By Madhukar Sir{" "}
+                      </p>
                     </Link>
 
                     <Link
                       href={"videos/history"}
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold">
@@ -110,13 +103,13 @@ export default function MyHome() {
                         </span>
                       </h2>
                       <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                        by Madhukar sir                      </p>
+                        by Madhukar sir{" "}
+                      </p>
                     </Link>
 
                     <Link
                       href={"videos/economics"}
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold">
@@ -126,22 +119,23 @@ export default function MyHome() {
                         </span>
                       </h2>
                       <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-                        by Madhukar sir                      </p>
+                        by Madhukar sir{" "}
+                      </p>
                     </Link>
                     <Link
                       href="videos/parmar"
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold">
-                        Parmar {" "}
+                        Parmar{" "}
                         <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                           -&gt;
                         </span>
                       </h2>
                       <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-                        - By Parmar Sir                      </p>
+                        - By Parmar Sir{" "}
+                      </p>
                     </Link>
                   </div>
                 </CardBody>
@@ -150,40 +144,34 @@ export default function MyHome() {
             <Tab key="notes" title="Notes">
               <Card>
                 <CardBody>
-                <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-6xl lg:grid-cols-5 lg:text-left">
-                  
+                  <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-6xl lg:grid-cols-5 lg:text-left">
                     <Link
                       href={"gk_books"}
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold text-blue">
-                       <p className="text-blue-600">  GK_GS_BOOK </p>
+                        <p className="text-blue-600"> GK_GS_BOOK </p>
                       </h2>
                       <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                        Find in-depth information about Next.js features and API.
+                        Find in-depth information about Next.js features and
+                        API.
                       </p>
                     </Link>
-
 
                     <Link
                       href={"parmar"}
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold text-blue">
-                       <p className="text-blue-600">  Parmar_SSC </p>
+                        <p className="text-blue-600"> Parmar_SSC </p>
                       </h2>
                       <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                        Find in-depth information about Next.js features and API.
+                        Find in-depth information about Next.js features and
+                        API.
                       </p>
                     </Link>
-                  
-
-                    
-                   
                   </div>
                 </CardBody>
               </Card>
@@ -191,12 +179,10 @@ export default function MyHome() {
             <Tab key="pyq" title="Previous Year Questions">
               <Card>
                 <CardBody>
-
                   <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-6xl lg:grid-cols-5 lg:text-left">
                     <Link
                       href={"ssccgl"}
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold">
@@ -206,14 +192,14 @@ export default function MyHome() {
                         </span>
                       </h2>
                       <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                        Find in-depth information about Next.js features and API.
+                        Find in-depth information about Next.js features and
+                        API.
                       </p>
                     </Link>
 
                     <Link
                       href="/ssccpo"
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold">
@@ -223,13 +209,13 @@ export default function MyHome() {
                         </span>
                       </h2>
                       <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                        SUB INSPECTOR IN CAPF          </p>
+                        SUB INSPECTOR IN CAPF{" "}
+                      </p>
                     </Link>
 
                     <Link
                       href={"sscchsl"}
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold">
@@ -246,7 +232,6 @@ export default function MyHome() {
                     <Link
                       href={"sscgd"}
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold">
@@ -263,7 +248,6 @@ export default function MyHome() {
                     <Link
                       href={"sscmts"}
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold">
@@ -273,13 +257,13 @@ export default function MyHome() {
                         </span>
                       </h2>
                       <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-                        Instantly deploy your Next.js site to a shareable URL with Vercel.
+                        Instantly deploy your Next.js site to a shareable URL
+                        with Vercel.
                       </p>
                     </Link>
                     <Link
                       href="/rrbalp"
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-
                       rel="noopener noreferrer"
                     >
                       <h2 className="mb-3 text-2xl font-semibold">
@@ -289,7 +273,8 @@ export default function MyHome() {
                         </span>
                       </h2>
                       <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-                        Instantly deploy your Next.js site to a shareable URL with Vercel.
+                        Instantly deploy your Next.js site to a shareable URL
+                        with Vercel.
                       </p>
                     </Link>
                   </div>
@@ -297,6 +282,27 @@ export default function MyHome() {
               </Card>
             </Tab>
 
+            <Tab key="allinone" title="All in One">
+              <Card>
+                <CardBody>
+                  <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-6xl lg:grid-cols-5 lg:text-left">
+                    <Link
+                      href={"rules"}
+                      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                      rel="noopener noreferrer"
+                    >
+                      <h2 className="mb-3 text-2xl font-semibold">
+                        <p className="text-blue-600">Rules and Basic</p>
+                      </h2>
+                      <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        Find in-depth information about Next.js features and
+                        API.
+                      </p>
+                    </Link>
+                  </div>
+                </CardBody>
+              </Card>
+            </Tab>
           </Tabs>
         </div>
       </div>

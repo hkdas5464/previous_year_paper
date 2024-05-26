@@ -51,7 +51,7 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
-            <CardTitle >{item.title}
+            <CardTitle >  <p className="text-blue-600">{item.title}</p>
             </CardTitle>
             <CardDescription>{item.description}</CardDescription>
               {/* <p><CardDescription><Checkbox>Done</Checkbox></CardDescription></p> */}
