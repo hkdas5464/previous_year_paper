@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react'
 import { CardHoverEffectDemo } from '../cardhover';
 import { Tabs, Tab, Card, CardBody, Chip } from "@nextui-org/react";
 import { Englishrule, MathsData, ReasoningData } from "./data";
-import { GalleryIcon } from "./GalleryIcon";
 import {ResoningIcon} from "./ResoningIcon";
 import {MathsIcon} from './MathsIcon';
 import {EnglishIcon} from './EnglishIcon'
