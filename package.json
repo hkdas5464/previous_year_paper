@@ -19,7 +19,7 @@
     "child_process": "^1.0.2",
     "cloudinary": "^2.2.0",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.1.9",
+    "framer-motion": "^11.2.6",
     "fs": "^0.0.1-security",
     "imagemin": "^9.0.0",
     "imagemin-jpegtran": "^7.0.0",
