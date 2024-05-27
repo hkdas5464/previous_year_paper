@@ -15,7 +15,7 @@ export default function MyNavbar() {
     <Navbar>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          
+          <Link href="/" className=" font-semibold">Home</Link>
         </NavbarItem>
         <NavbarItem isActive>
         

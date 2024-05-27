@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
 import { ThemeSwitcher } from "@/components/ui/ThemeSwitcher";
-import MyNavbar from "./Navbar";
+// import MyNavbar from "./Navbar";
 import { cn } from "@/utils/cn";
 
 export default function MyHome() {

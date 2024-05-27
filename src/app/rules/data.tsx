@@ -108,7 +108,7 @@ export const GK_GS = [{
     link: ""
 }]
 
-export const Reasoning = [{
+export const ReasoningData = [{
     description: "Reasoning DSSSB JJA Mar 2024 compilation_RBE_compressed",
     title: 'Reasoning DSSSB',
     link: "https://drive.google.com/file/d/1_eUfR5yibFDQewnCtx0-KDwd_FqFfMuP/view?usp=sharing"
@@ -117,6 +117,52 @@ export const Reasoning = [{
     description: "SSC_CGL2021_REASONING(English)_topic-wise_RBE (optimized)",
     title: 'SSC_CGL2021_REASONING',
     link: "https://drive.google.com/file/d/1ABULsUPqnlGKGGtazjGafycufBzAz-TV/view?usp=sharing"
+},
+{
+    description: "IB ACIO 2023 Compilation ENGLISH--30--1---24 FINAL-1.pdf",
+    title: 'IB ACIO 2023 Compilation ENGLISH',
+    link: "https://drive.google.com/file/d/14FBLuwt6PS7kJ_fYkQqDlGRJFxhEzi4N/view?usp=sharing"
+},
+{
+    description: "IB ACIO II Exe. 2024 English 8 sets by RG Vikramjeet sir",
+    title: 'IB ACIO II Exe. 2024 English 8 ',
+    link: "https://drive.google.com/file/d/14KHrvLgN5WAWFRSNb8GZXnRjGDu3pJc1/view?usp=sharing"
+},
+{
+    description: "JSA_DSSSB_Reasoning_(in English)_RBE_April 2022_RBE.pdf ",
+    title: 'JSA_DSSSB_Reasoning_(in English)',
+    link: "https://drive.google.com/file/d/14KOu731lzTiLLuiahGTnvsHkQ_U-vdIh/view?usp=sharing"
+},
+{
+    description: "Reasoning (eng) CPO 2023 T-1 topic-wise-img_RBE_compress",
+    title: 'Reasoning (eng) CPO 2023 T-1 top',
+    link: "https://drive.google.com/file/d/14OMHmFDcVEekX529xtCG5KoQf1EQF5mf/view?usp=sharing"
+},
+{
+    description: "Reasoning (eng) mock SSC Steno 2023 T-1_RBE_compressed.p",
+    title: 'Reasoning (eng) mock SSC Steno 2',
+    link: "https://drive.google.com/file/d/14Rv4WKKRQqcpRSiLNAY_7ST5CS0vXad8/view?usp=sharing"
+},
+{
+    description: "Reasoning (eng) SSC CPO 2023 T-1_RBE_compressed.pdf PDF ",
+    title: 'Reasoning (eng) SSC CPO 2023 T-1',
+    link: "https://drive.google.com/file/d/14VaQgBSj0PLEB7ar9R7suKPq7k63NRmm/view?usp=sharing"
+},
+{
+    description: "Reasoning_eng_Mock_form_SSC_CHSL_2023_T_1_jpg_RBE_compre",
+    title: 'Reasoning_eng_Mock_form_SSC_CHSL',
+    link: "https://drive.google.com/file/d/14pC7zAD0nMoMeOK-1X1j2Ea1BWx3Y9Tg/view?usp=sharing"
+},
+{
+
+    description: "Reasoning_eng_SSC_GD_2024_Tier_1_53_shits_compilaiton_RB",
+    title: 'Reasoning_eng_SSC_GD_2024_Tier_1',
+    link: "https://drive.google.com/file/d/14qDYl0DulpfVKHabBdpnU6Ssku17SsRJ/view?usp=sharing"
+},
+{
+    description: "SET_1_to_100_REASONING_PRACTICE_SETS_BY_PIYUSH_VARSHNEY_",
+    title: 'SET_1_to_100_REASONING',
+    link: "https://drive.google.com/file/d/1x2zK9sCf70vQ1Xpwi_zbEIudZR1IJ11T/view?usp=sharing"
 }]
 
 
