@@ -108,7 +108,25 @@ export const GK_GS = [{
     link: ""
 }]
 
-export const ReasoningData = [{
+export const GkData = [{
+    description: "RAILWAY GS 7100(2nd edition)ENGLISH MEDIUM @ebook…",
+    title: 'RAILWAY GS 7100',
+    link: "https://drive.google.com/file/d/1Tfz5XhyzqVbBBGQBfmp-8FuPveNU87Ie/view?usp=sharing"
+},
+{
+    description: "GS 6500 6th Edition Book (English Medium)@ebookst…",
+    title: 'Pinnacle GS 6500 6th Edition',
+    link: "https://drive.google.com/file/d/1UExRvV9s8LSvAkoLZbo0FVh8W8bdSQFx/view?usp=sharing"
+}
+]
+
+export const ReasoningData = [
+    {
+        description: "REASONING 6TH EDITION ( ENGLISH) PINNACLE @ebook…",
+        title: 'PINNACLE REASONING 6TH EDITION ( ENGLISH)',
+        link: "https://drive.google.com/file/d/1UPRVIn8Rs8nt5jvyarPY0b3wNbQPK-J_/view?usp=sharing"
+    },
+    {
     description: "Reasoning DSSSB JJA Mar 2024 compilation_RBE_compressed",
     title: 'Reasoning DSSSB',
     link: "https://drive.google.com/file/d/1_eUfR5yibFDQewnCtx0-KDwd_FqFfMuP/view?usp=sharing"
@@ -167,6 +185,16 @@ export const ReasoningData = [{
 
 
 export const Englishrule = [
+    {
+        description: "PINNACLE ENGLISH 7600 6th Edition Book (English Medium)",
+        title: "PINNACLE ENGLISH 7600 6th",
+        link: "https://drive.google.com/file/d/1Tuz3tXI9eWSnSH_YPj-MdaOS-wZ4hTnD/view?usp=sharing"
+    },
+    {
+        description: "English 20000+ vocab book final@ebookstore01.pdf",
+        title: "PINNACLE English 20000+ vocab book",
+        link: "https://drive.google.com/file/d/1UCGwyJ21_7CG5zR9mkfMtEKnR8e0rqZO/view?usp=sharing"
+    },
     {
         description: "Complete English Grammar ebook ",
         title: "Complete English Grammar",
@@ -260,6 +288,11 @@ export const CurrentAffairs = [{
 ]
 
 export const MathsData = [
+    {
+        description: "MATH_6800_6th_Edition_Book_English_Medium_2024",
+        title: 'PINNACLE MATH_6800',
+        link: "https://drive.google.com/file/d/1UL-X6carWlPiVrCEFj1BtJDZ5_ROrmL6/view?usp=sharing"  
+    },
     {
         description: "Maths Concept King Book",
         title: 'Maths Concept King Book',
