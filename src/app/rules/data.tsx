@@ -114,6 +114,11 @@ export const GkData = [{
     link: "https://drive.google.com/file/d/1Tfz5XhyzqVbBBGQBfmp-8FuPveNU87Ie/view?usp=sharing"
 },
 {
+    description: "Pinnacle GS 6th edition (Hindi Medium)",
+    title: 'Pinnacle GS 6th edition (Hindi Medium',
+    link: "https://drive.google.com/file/d/1VBnLUtdFixFRVbpfGgGYHh2ma3I18FQl/view?usp=sharing"
+},
+{
     description: "GS 6500 6th Edition Book (English Medium)@ebookst…",
     title: 'Pinnacle GS 6500 6th Edition',
     link: "https://drive.google.com/file/d/1UExRvV9s8LSvAkoLZbo0FVh8W8bdSQFx/view?usp=sharing"
