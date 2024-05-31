@@ -139,7 +139,7 @@ export const Mathsdata = [
     {
         description: "Railway ALP ALL Maths QUESTIONS (Bilingual)",
         title: "Railway ALP ALL Maths",
-        link: "https://drive.google.com/file/d/1E8xLSCxCRqoO_2-QVg1K0EzF3wxLdKmW/view?usp=sharing"
+        link: "https://drive.google.com/file/d/1E8xLSCxCRqoO_2-QVg1K0EzF3wxLdKmW/view?usp=sharing",
     },
 
     {
