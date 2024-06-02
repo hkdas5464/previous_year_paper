@@ -2,7 +2,7 @@
 import React from 'react'
 import { CardHoverEffectDemo } from '../cardhover';
 import {Tabs, Tab, Card, CardBody} from "@nextui-org/react";
-import  {CurrentAffairs, EconomicsData, Politydata, Geography}  from "./data";
+import  {CurrentAffairs, EconomicsData, Politydata, Geography, ArtandCulture}  from "./data";
 
 
 
@@ -47,6 +47,13 @@ function UPSC() {
           <Card>
             <CardBody>
              <CardHoverEffectDemo items={CurrentAffairs}/>
+            </CardBody>
+          </Card>  
+        </Tab>
+        <Tab key="art" title="Art & Culture">
+          <Card>
+            <CardBody>
+             <CardHoverEffectDemo items={ArtandCulture}/>
             </CardBody>
           </Card>  
         </Tab>

@@ -11,6 +11,12 @@ interface Subjects {
     updated_at: string;
 }
 
+interface Apis{
+    description:string;
+    title:string;
+    link:string;
+}
+
 export const English = [
     {
         description: "SSC CGL 2023 COMPLETE MATHS COMPILATION (ENGLISH)",
@@ -149,4 +155,13 @@ export const EconomicsData = [
         title: 'Indian-Economy-UPSC-Prelims',
         link: "https://www.dropbox.com/scl/fi/8df0tl8bphw3lv1h0grqs/Rapid-Revision-Book-Indian-Economy-UPSC-Prelims-2024.pdf?rlkey=k99h01grmsfee1e8xg3ag5iv9&st=3txj5ryg&dl=0"
     },
+]
+
+
+export const ArtandCulture:Apis[] = [
+    {
+        description:"Art And Culture By ",
+        title: 'Art and Culture',
+        link: "https://www.jiocloud.com/l/?u=F9ri3MfYyv0pqkJg_CKUMkaZg6nMOKngWUmHu_2Pg-M=8BX"
+    }
 ]
