@@ -2,8 +2,8 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        formats: ["image/avif", "image/webp"],
-        domains: ['ssc.gov.in'],
+        formats: ["image/avif", "image/webp" ],
+        domains: ['ssc.gov.in',"lh3.googleusercontent.com","flowbite.s3.amazonaws.com"],
         remotePatterns: [
             {
                 protocol: "https",
