@@ -31,7 +31,7 @@ function Mathgallery() {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               {Circle.map((e) => (
                
-              <Gallery props={e.src}/>
+              <Gallery key={e.src} props={e.src}/>
            
               ))}
             </div>
