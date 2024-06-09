@@ -21,7 +21,7 @@ export default function RootLayout({
      
     <head />
     
-    <body>
+    <body className="z-0">
       <ThemeProvider><MyNavbar/></ThemeProvider>
       <ThemeProvider>{children}</ThemeProvider>
     </body>

@@ -108,7 +108,30 @@ export const GK_GS = [{
     link: ""
 }]
 
-export const Reasoning = [{
+export const GkData = [{
+    description: "RAILWAY GS 7100(2nd edition)ENGLISH MEDIUM @ebook…",
+    title: 'RAILWAY GS 7100',
+    link: "https://drive.google.com/file/d/1Tfz5XhyzqVbBBGQBfmp-8FuPveNU87Ie/view?usp=sharing"
+},
+{
+    description: "Pinnacle GS 6th edition (Hindi Medium)",
+    title: 'Pinnacle GS 6th edition (Hindi Medium',
+    link: "https://drive.google.com/file/d/1VBnLUtdFixFRVbpfGgGYHh2ma3I18FQl/view?usp=sharing"
+},
+{
+    description: "GS 6500 6th Edition Book (English Medium)@ebookst…",
+    title: 'Pinnacle GS 6500 6th Edition',
+    link: "https://drive.google.com/file/d/1UExRvV9s8LSvAkoLZbo0FVh8W8bdSQFx/view?usp=sharing"
+}
+]
+
+export const ReasoningData = [
+    {
+        description: "REASONING 6TH EDITION ( ENGLISH) PINNACLE @ebook…",
+        title: 'PINNACLE REASONING 6TH EDITION ( ENGLISH)',
+        link: "https://drive.google.com/file/d/1UPRVIn8Rs8nt5jvyarPY0b3wNbQPK-J_/view?usp=sharing"
+    },
+    {
     description: "Reasoning DSSSB JJA Mar 2024 compilation_RBE_compressed",
     title: 'Reasoning DSSSB',
     link: "https://drive.google.com/file/d/1_eUfR5yibFDQewnCtx0-KDwd_FqFfMuP/view?usp=sharing"
@@ -117,10 +140,66 @@ export const Reasoning = [{
     description: "SSC_CGL2021_REASONING(English)_topic-wise_RBE (optimized)",
     title: 'SSC_CGL2021_REASONING',
     link: "https://drive.google.com/file/d/1ABULsUPqnlGKGGtazjGafycufBzAz-TV/view?usp=sharing"
+},
+{
+    description: "IB ACIO 2023 Compilation ENGLISH--30--1---24 FINAL-1.pdf",
+    title: 'IB ACIO 2023 Compilation ENGLISH',
+    link: "https://drive.google.com/file/d/14FBLuwt6PS7kJ_fYkQqDlGRJFxhEzi4N/view?usp=sharing"
+},
+{
+    description: "IB ACIO II Exe. 2024 English 8 sets by RG Vikramjeet sir",
+    title: 'IB ACIO II Exe. 2024 English 8 ',
+    link: "https://drive.google.com/file/d/14KHrvLgN5WAWFRSNb8GZXnRjGDu3pJc1/view?usp=sharing"
+},
+{
+    description: "JSA_DSSSB_Reasoning_(in English)_RBE_April 2022_RBE.pdf ",
+    title: 'JSA_DSSSB_Reasoning_(in English)',
+    link: "https://drive.google.com/file/d/14KOu731lzTiLLuiahGTnvsHkQ_U-vdIh/view?usp=sharing"
+},
+{
+    description: "Reasoning (eng) CPO 2023 T-1 topic-wise-img_RBE_compress",
+    title: 'Reasoning (eng) CPO 2023 T-1 top',
+    link: "https://drive.google.com/file/d/14OMHmFDcVEekX529xtCG5KoQf1EQF5mf/view?usp=sharing"
+},
+{
+    description: "Reasoning (eng) mock SSC Steno 2023 T-1_RBE_compressed.p",
+    title: 'Reasoning (eng) mock SSC Steno 2',
+    link: "https://drive.google.com/file/d/14Rv4WKKRQqcpRSiLNAY_7ST5CS0vXad8/view?usp=sharing"
+},
+{
+    description: "Reasoning (eng) SSC CPO 2023 T-1_RBE_compressed.pdf PDF ",
+    title: 'Reasoning (eng) SSC CPO 2023 T-1',
+    link: "https://drive.google.com/file/d/14VaQgBSj0PLEB7ar9R7suKPq7k63NRmm/view?usp=sharing"
+},
+{
+    description: "Reasoning_eng_Mock_form_SSC_CHSL_2023_T_1_jpg_RBE_compre",
+    title: 'Reasoning_eng_Mock_form_SSC_CHSL',
+    link: "https://drive.google.com/file/d/14pC7zAD0nMoMeOK-1X1j2Ea1BWx3Y9Tg/view?usp=sharing"
+},
+{
+
+    description: "Reasoning_eng_SSC_GD_2024_Tier_1_53_shits_compilaiton_RB",
+    title: 'Reasoning_eng_SSC_GD_2024_Tier_1',
+    link: "https://drive.google.com/file/d/14qDYl0DulpfVKHabBdpnU6Ssku17SsRJ/view?usp=sharing"
+},
+{
+    description: "SET_1_to_100_REASONING_PRACTICE_SETS_BY_PIYUSH_VARSHNEY_",
+    title: 'SET_1_to_100_REASONING',
+    link: "https://drive.google.com/file/d/1x2zK9sCf70vQ1Xpwi_zbEIudZR1IJ11T/view?usp=sharing"
 }]
 
 
 export const Englishrule = [
+    {
+        description: "PINNACLE ENGLISH 7600 6th Edition Book (English Medium)",
+        title: "PINNACLE ENGLISH 7600 6th",
+        link: "https://drive.google.com/file/d/1Tuz3tXI9eWSnSH_YPj-MdaOS-wZ4hTnD/view?usp=sharing"
+    },
+    {
+        description: "English 20000+ vocab book final@ebookstore01.pdf",
+        title: "PINNACLE English 20000+ vocab book",
+        link: "https://drive.google.com/file/d/1UCGwyJ21_7CG5zR9mkfMtEKnR8e0rqZO/view?usp=sharing"
+    },
     {
         description: "Complete English Grammar ebook ",
         title: "Complete English Grammar",
@@ -213,32 +292,25 @@ export const CurrentAffairs = [{
 }
 ]
 
-export const EnglishData = [
+export const MathsData = [
     {
-        description: "Idioms_Book_for_SSC_CPO,_CHSL,_CGL",
-        title: 'Idioms_Book_for_SSC',
-        link: "https://drive.google.com/file/d/1BmztFAtnQOvNFWJXp9Q7rwBJEVwSGKv-/view?usp=sharing"
+        description: "MATH_6800_6th_Edition_Book_English_Medium_2024",
+        title: 'PINNACLE MATH_6800',
+        link: "https://drive.google.com/file/d/1UL-X6carWlPiVrCEFj1BtJDZ5_ROrmL6/view?usp=sharing"  
     },
     {
-    description: "English topic-wise SSC CPO 2023 T-1_img_RBE_compressed",
-    title: 'English All',
-    link: "https://drive.google.com/file/d/10zHzVqk9XqnR8Q7FPp0SAZX2AX6-Qcfb/view?usp=sharing"
-},
-{
-    description: "Last 5 Years IDIOMS",
-    title: 'IDIOMS',
-    link: "https://drive.google.com/file/d/15dYP18h4MFoJ5J0HF1rQRud_hvLocyV5/view?usp=sharing"
-}
-    ,
-{
-    description: "IB ACIO 2024 complete solution eBook",
-    title: 'IB ACIO 2024',
-    link: "https://drive.google.com/file/d/14mq4sP2RDc781MMpHX2eEkCz5lamJg-A/view?usp=sharing"
-}
-    ,
-{
-    description: "IB ACIO 2024 Complete Vocab eBook",
-    title: 'IB ACIO VOCAB',
-    link: "https://drive.google.com/file/d/1vV2vfbqjDja5gI2twErSretHrPeeVRlV/view?usp=sharing"
-}
+        description: "Maths Concept King Book",
+        title: 'Maths Concept King Book',
+        link: "https://drive.google.com/file/d/1R8acU7ymFVApIH9hOs5lW35E87zByvBv/view?usp=sharing"
+    },
+    {
+        description: "Inspector_chalisa",
+        title: 'Inspector_chalisa',
+        link: "https://drive.google.com/file/d/1Qqjc_RoLcTvLtxGCBvuQEDD_gQhNk2gq/view?usp=sharing"
+    },
+    {
+        description: "Maths Formula Book By Aditya Ranjan",
+        title: 'Maths Formula Book',
+        link: "https://drive.google.com/file/d/1RCN1H-ftPsHvQMvnJ_5fqcarRHR3lg4e/view?usp=sharing"
+    }
 ]

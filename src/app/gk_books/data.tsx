@@ -21,6 +21,11 @@ export const Gkbook = [
         description: "G.S.POINTER Rapid Fire 25000 By Rexstar",
         title: 'G.S.POINTER Rapid Fire',
         link: "https://drive.google.com/file/d/1wzSwWfFnNXPIoe9tqnEmXE18W8XeWATf/view?usp=sharing"
+    },
+    {
+        description: "National Park by MKLIVE",
+        title: 'National Park',
+        link: "https://drive.google.com/file/d/1nALmgPOdI1Dv1c2BH3_W7m7ENlLZ_byM/view?usp=sharing"
     }]
 
 export const GK_GS = [{
