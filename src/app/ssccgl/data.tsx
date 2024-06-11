@@ -3,12 +3,10 @@ import { title } from "node:process";
 import { describe } from "node:test";
 
 interface Subjects {
-    id: number;
-    name: string;
+
+    title: string;
     link: string;
     description: string;
-    created_at: string;
-    updated_at: string;
 }
 
 export const English = [
@@ -120,7 +118,7 @@ export const Reasoning = [{
 }]
 
 
-export const Mathsdata = [
+export const Mathsdata:Subjects[] = [
     {
         description: "Selection_Post_Phase_viii_,ix,_x,_xi_All_Maths_Questions",
         title: "Selection_Post_Phase",
