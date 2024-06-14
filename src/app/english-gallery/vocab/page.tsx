@@ -26,7 +26,7 @@ export default function App() {
 
                         <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
                             {vocab_day_1.map((e) => (
-                                <CardBody className="overflow-visible p-0">
+                                <CardBody key={Math.random()} className="overflow-visible p-0">
                                     <div className="flip-card">
                                         <div className="flip-card-inner">
                                             <div className="flip-card-front">
@@ -48,7 +48,7 @@ export default function App() {
 
                         <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
                             {vocab_day_2.map((e) => (
-                                <CardBody className="overflow-visible p-0">
+                                <CardBody key={Math.random()} className="overflow-visible p-0">
                                     <div className="flip-card">
                                         <div className="flip-card-inner">
                                             <div className="flip-card-front">
@@ -70,7 +70,7 @@ export default function App() {
 
                         <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
                             {vocab_day_3.map((e) => (
-                                <CardBody className="overflow-visible p-0">
+                                <CardBody key={Math.random()} className="overflow-visible p-0">
                                     <div className="flip-card">
                                         <div className="flip-card-inner">
                                             <div className="flip-card-front">
@@ -92,7 +92,7 @@ export default function App() {
 
                         <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
                             {vocab_day_3.map((e) => (
-                                <CardBody className="overflow-visible p-0">
+                                 <CardBody key={Math.random()} className="overflow-visible p-0">
                                     <div className="flip-card">
                                         <div className="flip-card-inner">
                                             <div className="flip-card-front">
@@ -114,7 +114,7 @@ export default function App() {
 
                         <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
                             {vocab_day_3.map((e) => (
-                                <CardBody className="overflow-visible p-0">
+                                  <CardBody key={Math.random()} className="overflow-visible p-0">
                                     <div className="flip-card">
                                         <div className="flip-card-inner">
                                             <div className="flip-card-front">
