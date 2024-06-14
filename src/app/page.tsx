@@ -457,6 +457,33 @@ export default function MyHome() {
                 </CardBody>
               </Card>
             </Tab>
+
+            <Tab key="vocab" title="Vocab">
+              <Card>
+                <CardBody>
+                  <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-6xl lg:grid-cols-5 lg:text-left">
+                    <Link
+                      href={"english-gallery/vocab"}
+                      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                      rel="noopener noreferrer"
+                    >
+                      <h2 className="mb-3 text-2xl font-semibold">
+                        <p className="text-blue-600">English Vocab</p>
+                      </h2>
+                      <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        Find in-depth information about Next.js features and
+                        API.
+                      </p>
+                    </Link>
+
+
+
+                   
+                  
+                  </div>
+                </CardBody>
+              </Card>
+            </Tab>
           </Tabs>
 
           
