@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import { Tabs, Tab, Card, CardBody, CardHeader, Checkbox } from "@nextui-org/react";
-import { vocab_day_1, vocab_day_2, vocab_day_3 } from './data'
+import { vocab_day_1, vocab_day_2, vocab_day_3, vocab_day_4, vocab_day_5 } from './data'
 import './app.css'
 
 
@@ -94,7 +94,7 @@ export default function App() {
                     <Tab key="Day_4" title="Day_4">
 
                         <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
-                            {vocab_day_3.map((e, index) => (
+                            {vocab_day_4.map((e, index) => (
                                 <CardBody key={Math.random()} className="overflow-visible p-0">
                                     <div className="flip-card">
                                         <div className="flip-card-inner">
@@ -116,7 +116,7 @@ export default function App() {
                     <Tab key="Day_5" title="Day_5">
 
                         <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
-                            {vocab_day_3.map((e, index) => (
+                            {vocab_day_5.map((e, index) => (
                                 <CardBody key={Math.random()} className="overflow-visible p-0">
                                     <div className="flip-card">
                                         <div className="flip-card-inner">

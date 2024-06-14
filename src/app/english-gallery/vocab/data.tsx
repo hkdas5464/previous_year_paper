@@ -111,11 +111,11 @@ export const vocab_day_2: Subjects[] = [
     ,
     {
         voc: "Derision",
-        meaning: "चिड़चिड़ा"
+        meaning: "उपहास"
     },
     {
         voc: "Irascible",
-        meaning: "संतुष्ट करना"
+        meaning: "चिड़चिड़ा"
     },
     {
         voc: "promiscuous",
@@ -188,91 +188,273 @@ export const vocab_day_2: Subjects[] = [
 
 export const vocab_day_3: Subjects[] = [
     {
-        voc: "",
-        meaning: ""
+        voc: "Enigmatic",
+        meaning: "रहस्यपूर्ण"
     },
     {
-        voc: "",
-        meaning: ""
+        voc: "Despondent",
+        meaning: "हताश"
     },
     {
-        voc: "",
-        meaning: ""
+        voc: "Affront",
+        meaning: "अपमान"
     }
     ,
     {
-        voc: "",
-        meaning: ""
+        voc: "Defer",
+        meaning: "आस्थगित करें"
     },
     {
-        voc: "",
-        meaning: " "
+        voc: "Sordid",
+        meaning: "घिनौना "
     },
     {
-        voc: "",
-        meaning: ""
+        voc: "Mellow",
+        meaning: "मधुर"
     },
     {
-        voc: "",
-        meaning: ""
+        voc: "Nefarious",
+        meaning: "कुटिल"
     },
     {
-        voc: "",
-        meaning: ""
+        voc: "Irresolute",
+        meaning: "डगमग"
     },
     {
-        voc: "",
-        meaning: ""
+        voc: "Commotion",
+        meaning: "हंगामा"
     },
     {
-        voc: "",
-        meaning: ""
+        voc: "Docile",
+        meaning: "विनम्र"
     },
     {
-        voc: "",
-        meaning: ""
+        voc: "Impeccable",
+        meaning: "त्रुटिहीन"
     },
     {
-        voc: "",
-        meaning: ""
+        voc: "Vacillate",
+        meaning: "संदेह करना"
     },
     {
-        voc: "",
-        meaning: ""
+        voc: "Exhort",
+        meaning: "समझाना"
     }
 
     ,
     {
-        voc: "",
-        meaning: ""
+        voc: "Repartee",
+        meaning: "हाजिर जवाबी"
     }
     ,
     {
-        voc: "",
-        meaning: ""
+        voc: "Prognosis",
+        meaning: "रोग का निदान"
     }
     ,
     {
-        voc: "",
-        meaning: ""
+        voc: "Lurid",
+        meaning: "भयंकर"
     }
     ,
     {
-        voc: "",
-        meaning: ""
+        voc: "Condone",
+        meaning: "माफ करना"
     }
     ,
     {
-        voc: "",
-        meaning: ""
+        voc: "Rampart",
+        meaning: "किले की दीवार"
     },
     {
-        voc: "",
-        meaning: ""
+        voc: "Tribulation",
+        meaning: "क्लेश"
     },
     {
-        voc: "",
-        meaning: ""
+        voc: "Innocuous",
+        meaning: "अहानिकर"
+    }
+]
+
+export const vocab_day_4: Subjects[] = [
+    {
+        voc: "Protrude",
+        meaning: "बढ़ाना"
+    },
+    {
+        voc: "Mundane",
+        meaning: "सांसारिक"
+    },
+    {
+        voc: "Ascription",
+        meaning: "जोड़ना"
+    }
+    ,
+    {
+        voc: "Labyrinth",
+        meaning: "भूलभुलैया"
+    },
+    {
+        voc: "Tinsel",
+        meaning: "चमकी "
+    },
+    {
+        voc: "Conjurer",
+        meaning: "जादूगार"
+    },
+    {
+        voc: "Impetuous",
+        meaning: "अविवेकी"
+    },
+    {
+        voc: "Feign",
+        meaning: "बहाना करना"
+    },
+    {
+        voc: "Temerity",
+        meaning: "उतावलापन"
+    },
+    {
+        voc: "Fling",
+        meaning: "हाथ बढ़ाना"
+    },
+    {
+        voc: "Taciturn",
+        meaning: "अल्पभाषी"
+    },
+    {
+        voc: "Obstreperous",
+        meaning: "प्रचंड"
+    },
+    {
+        voc: "Tepid",
+        meaning: "थोड़े थोड़े गरम"
+    }
+
+    ,
+    {
+        voc: "Penchant",
+        meaning: "लगन"
+    }
+    ,
+    {
+        voc: "Exorbitant",
+        meaning: "अत्यधिक"
+    }
+    ,
+    {
+        voc: "Diffident",
+        meaning: "संकोची"
+    }
+    ,
+    {
+        voc: "Garble",
+        meaning: "तोड़ना-मरोड़ना"
+    }
+    ,
+    {
+        voc: "Peruse",
+        meaning: "ख़याल"
+    },
+    {
+        voc: "Impervious",
+        meaning: "प्रबल"
+    },
+    {
+        voc: "Sporadic",
+        meaning: "छिटपुट"
     }
 
 ]
+
+export const vocab_day_5: Subjects[] = [
+    {
+        voc: "Inquisitive",
+        meaning: "जिज्ञासु"
+    },
+    {
+        voc: "Beseech",
+        meaning: "प्रार्थना करना"
+    },
+    {
+        voc: "Odious",
+        meaning: "घिनौना"
+    }
+    ,
+    {
+        voc: "Chide",
+        meaning: "डांटना"
+    },
+    {
+        voc: "Tirade",
+        meaning: "टाइरैड "
+    },
+    {
+        voc: "Serpentine",
+        meaning: "टेढ़ा"
+    },
+    {
+        voc: "Visceral",
+        meaning: "आंत का"
+    },
+    {
+        voc: "Recapitulate",
+        meaning: "पुनरावृत्ति करना"
+    },
+    {
+        voc: "Verisimilitude",
+        meaning: "संभाव्यता"
+    },
+    {
+        voc: "Conjecture",
+        meaning: "अनुमान"
+    },
+    {
+        voc: "Quarry",
+        meaning: "शिकार"
+    },
+    {
+        voc: "Damp",
+        meaning: "नम"
+    },
+    {
+        voc: "Spume",
+        meaning: "झाग"
+    }
+
+    ,
+    {
+        voc: "Procure",
+        meaning: "खरीद"
+    }
+    ,
+    {
+        voc: "Limpid",
+        meaning: "पारदर्शक"
+    }
+    ,
+    {
+        voc: "Crusade",
+        meaning: "धर्मयुद्ध"
+    }
+    ,
+    {
+        voc: "Lousy",
+        meaning: "घटिया"
+    }
+    ,
+    {
+        voc: "Upbraid",
+        meaning: "फटकारना"
+    },
+    {
+        voc: "Desultory",
+        meaning: "असंबद्ध"
+    },
+    {
+        voc: "Stroll",
+        meaning: "चहलक़दमी"
+    }
+
+]
+
