@@ -25,12 +25,13 @@ export default function App() {
                     <Tab key="GK" title="Day_1">
 
                         <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
-                            {vocab_day_1.map((e) => (
+                            {vocab_day_1.map((e,index) => (
                                 <CardBody key={Math.random()} className="overflow-visible p-0">
                                     <div className="flip-card">
                                         <div className="flip-card-inner">
                                             <div className="flip-card-front">
                                                 <p className="title">{e.voc}</p>
+                                                <p>{1+index}</p>
 
                                             </div>
                                             <div className="flip-card-back">
@@ -47,12 +48,13 @@ export default function App() {
                     <Tab key="current" title="Day_2">
 
                         <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
-                            {vocab_day_2.map((e) => (
+                            {vocab_day_2.map((e,index) => (
                                 <CardBody key={Math.random()} className="overflow-visible p-0">
                                     <div className="flip-card">
                                         <div className="flip-card-inner">
                                             <div className="flip-card-front">
                                                 <p className="title">{e.voc}</p>
+                                                <p>{1+index}</p>
 
                                             </div>
                                             <div className="flip-card-back">
@@ -69,13 +71,13 @@ export default function App() {
                     <Tab key="Day_3" title="Day_3">
 
                         <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
-                            {vocab_day_3.map((e) => (
+                            {vocab_day_3.map((e,index) => (
                                 <CardBody key={Math.random()} className="overflow-visible p-0">
                                     <div className="flip-card">
                                         <div className="flip-card-inner">
                                             <div className="flip-card-front">
                                                 <p className="title">{e.voc}</p>
-
+<p>{1+index}</p>
                                             </div>
                                             <div className="flip-card-back">
                                                 <p className="title">{e.meaning}</p>
@@ -91,13 +93,13 @@ export default function App() {
                     <Tab key="Day_4" title="Day_4">
 
                         <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
-                            {vocab_day_3.map((e) => (
+                            {vocab_day_3.map((e,index) => (
                                  <CardBody key={Math.random()} className="overflow-visible p-0">
                                     <div className="flip-card">
                                         <div className="flip-card-inner">
                                             <div className="flip-card-front">
                                                 <p className="title">{e.voc}</p>
-
+<p>{1+index}</p>
                                             </div>
                                             <div className="flip-card-back">
                                                 <p className="title">{e.meaning}</p>
@@ -113,13 +115,13 @@ export default function App() {
                     <Tab key="Day_5" title="Day_5">
 
                         <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
-                            {vocab_day_3.map((e) => (
+                            {vocab_day_3.map((e,index) => (
                                   <CardBody key={Math.random()} className="overflow-visible p-0">
                                     <div className="flip-card">
                                         <div className="flip-card-inner">
                                             <div className="flip-card-front">
                                                 <p className="title">{e.voc}</p>
-
+<p>{index+1}</p>
                                             </div>
                                             <div className="flip-card-back">
                                                 <p className="title">{e.meaning}</p>
