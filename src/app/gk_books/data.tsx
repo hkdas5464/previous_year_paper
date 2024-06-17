@@ -3,12 +3,9 @@ import { title } from "node:process";
 import { describe } from "node:test";
 
 interface Subjects {
-    id: number;
-    name: string;
-    link: string;
     description: string;
-    created_at: string;
-    updated_at: string;
+    title: string;
+    link: string;
 }
 
 export const Gkbook = [
@@ -200,22 +197,33 @@ export const Mathsdata = [
 ]
 
 
-export const CurrentAffairs = [{
-    description: "RBE Revolutionary Current Affairs",
-    title: 'RBE',
-    link: "https://drive.google.com/file/d/1CZOCs6skQWiRwfgJTmVrxZ9UWCPW3mQd/view?usp=sharing"
-},
-{
-    description: "Parmar",
-    title: 'Parmar',
-    link: "https://drive.google.com/file/d/13a84Zkvx7tEBgaaoil70jOWX2b9c1uky/view?usp=sharing"
-}
+export const CurrentAffairs: Subjects[] = [
+    {
+        description: "COMPLETE CURRENT AFFAIRS BY ADITYA SIR.pdf",
+        title: "COMPLETE CURRENT AFFAIRS BY ADITYA SIR",
+        link: "https://www.dropbox.com/scl/fi/ojdckd7a95uoj2g0y692n/COMPLETE-CURRENT-AFFAIRS-BY-ADITYA-SIR.pdf?rlkey=8xreduruneoqk5u9pujg663dz&st=0q0xgize&dl=0"
+    },
+    {
+        description: "COMPLETE STATIC GK BY ADITYA SIR.pdf",
+        title: "COMPLETE STATIC GK BY ADITYA SIR",
+        link: "https://www.dropbox.com/scl/fi/htece4kc9411b805w6tzw/COMPLETE-STATIC-GK-BY-ADITYA-SIR.pdf?rlkey=c1tswaxmz6jek85tman4y58dz&st=yryhy93f&dl=0"
+    },
+    {
+        description: "RBE Revolutionary Current Affairs",
+        title: 'RBE',
+        link: "https://drive.google.com/file/d/1CZOCs6skQWiRwfgJTmVrxZ9UWCPW3mQd/view?usp=sharing"
+    },
+    {
+        description: "Parmar",
+        title: 'Parmar',
+        link: "https://drive.google.com/file/d/13a84Zkvx7tEBgaaoil70jOWX2b9c1uky/view?usp=sharing"
+    }
     ,
-{
-    description: "Parmar",
-    title: 'Parmar',
-    link: "https://drive.google.com/file/d/13a84Zkvx7tEBgaaoil70jOWX2b9c1uky/view?usp=sharing"
-}
+    {
+        description: "Parmar",
+        title: 'Parmar',
+        link: "https://drive.google.com/file/d/13a84Zkvx7tEBgaaoil70jOWX2b9c1uky/view?usp=sharing"
+    }
 ]
 
 export const EnglishData1 = [
@@ -225,27 +233,27 @@ export const EnglishData1 = [
         link: "https://drive.google.com/file/d/1BmztFAtnQOvNFWJXp9Q7rwBJEVwSGKv-/view?usp=sharing"
     },
     {
-    description: "English topic-wise SSC CPO 2023 T-1_img_RBE_compressed",
-    title: 'English All',
-    link: "https://drive.google.com/file/d/10zHzVqk9XqnR8Q7FPp0SAZX2AX6-Qcfb/view?usp=sharing"
-},
-{
-    description: "Last 5 Years IDIOMS",
-    title: 'IDIOMS',
-    link: "https://drive.google.com/file/d/15dYP18h4MFoJ5J0HF1rQRud_hvLocyV5/view?usp=sharing"
-}
+        description: "English topic-wise SSC CPO 2023 T-1_img_RBE_compressed",
+        title: 'English All',
+        link: "https://drive.google.com/file/d/10zHzVqk9XqnR8Q7FPp0SAZX2AX6-Qcfb/view?usp=sharing"
+    },
+    {
+        description: "Last 5 Years IDIOMS",
+        title: 'IDIOMS',
+        link: "https://drive.google.com/file/d/15dYP18h4MFoJ5J0HF1rQRud_hvLocyV5/view?usp=sharing"
+    }
     ,
-{
-    description: "IB ACIO 2024 complete solution eBook",
-    title: 'IB ACIO 2024',
-    link: "https://drive.google.com/file/d/14mq4sP2RDc781MMpHX2eEkCz5lamJg-A/view?usp=sharing"
-}
+    {
+        description: "IB ACIO 2024 complete solution eBook",
+        title: 'IB ACIO 2024',
+        link: "https://drive.google.com/file/d/14mq4sP2RDc781MMpHX2eEkCz5lamJg-A/view?usp=sharing"
+    }
     ,
-{
-    description: "IB ACIO 2024 Complete Vocab eBook",
-    title: 'IB ACIO VOCAB',
-    link: "https://drive.google.com/file/d/1vV2vfbqjDja5gI2twErSretHrPeeVRlV/view?usp=sharing"
-}
+    {
+        description: "IB ACIO 2024 Complete Vocab eBook",
+        title: 'IB ACIO VOCAB',
+        link: "https://drive.google.com/file/d/1vV2vfbqjDja5gI2twErSretHrPeeVRlV/view?usp=sharing"
+    }
 ]
 
 export const Parmarpyq = [
