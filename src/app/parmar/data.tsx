@@ -3,13 +3,112 @@ import { title } from "node:process";
 import { describe } from "node:test";
 
 interface Subjects {
-    id: number;
-    name: string;
+  
+    title:string;
     link: string;
-    description: string;
-    created_at: string;
-    updated_at: string;
+    img:string;
+
+  
 }
+
+export const Economics:Subjects[]=[
+    {
+        title:"Parmar Econimics Complete",
+        link:"https://drive.google.com/file/d/1S-UmTwK1Y0u3Pm5quu7MeHoHnrC6-hWa/view?usp=sharing",
+        img:"https://lh3.googleusercontent.com/fife/ALs6j_Hyvp6roIcEdeMwyW_OGWvdDdb_Xl2yrpAlOLztVgzb668b9R-snCvzNGUltkXmKpjOCshF8WzDDlj_CaT2zgg0mbVq64EzSGEPdK5Ebi0kGr3gqgbwLYzYGzLEB3R1M8caYLuYrMKa2cKMLbPrcFR4W5sN1MaETkF_ExdR5-G1Xr5eRdOIog32GZmWeYcq9QM1PMj7PRnUXkA-1VG3Bz2IYKMHrWchUOJhTVEk0ZQjskxtf9wSaLzybLuelnoJ3MHWmGKdUWrpdiOoI1sSpsMUHyEjt-_h9Q0pqA-OPH9OvADWQDr5JR6LBN7K7snraCYU1tHDxP2gERtiyP7IxYCliGwteSE24kqF_U5CSK6PX99t7AiUWu6uUo_q1VK0kXOB1zHDPbSZ5iw0MTvHFAuk80Ier6BaNyQk7tAhWjJUGFWsBOjHpANFsG-jD6tmHURlMHyF2ISjYyNJ0DYXFivKYWBKEh2mMqeVNCNAGXYCQZx1kspfusX_j1mkqPSh7prGRIiBAyIWirPM5FtSOUCiNBCVbXbqMRmPd4mrj1sKmMXsvlAH0erSQWudIh1TDIfWlVVmjuT7MkeqBUWybSnfXYOECubWBArLNb6eyy6BKA9Vn1WjCpvo-7_nVYf9JDZQXrTT3dbmekxThRAT-O0CaSXqMAHPdKfyXCAutfSJpfoTx2WQa6A-9oOibu8w_LN0ZPQRwOsJWHeU-QMpG9WHWz8UR2T0GDXqpe672pvvMaN6xyWk7t0AlRO11AFk0SV3LK6VS7kXzpuiUooCLvS63filvawezqrq0VdUH8sNBFa87CHGa4YqP6WOoacJiryub1DpR1g07htGuf070185KCNev5NH_sueiVRo7d24eXrAitffSHb2ZPWZhIrHMI1Hq2WnRA0QWOTWTQUkmFXJdun1yzameERQ0NxjI1vxQwK7gfMgxvOMDSf0oaIW1S4oBxdv4DhBNouAipHuDfElAtnDM2GC1DMmRikYXcZABqtzM6clGdNRhxiAVpSb75uJZDPQoxtVvU0ZqzQOmWRvUI6DUL9iQNVgdRcwAv7Qz-Uta4_aubN30jimhfouP1lskZ44ppRCA-w8jNYRVEhtXQSZNwyoWY3y98qtPcEkFPBQml87qrBPy__e_hp1lypTgWzkCWXxNC2QYjezZKD6Yg95R7H7QqJRnpu16sY4bn6wuBxs_-8Ug-C9WxSSC5dCpds7WzCJkQHcOGhLLaEechVC_lzxhgN8yYYYbyNFOkkekkpo6Pka6PYycW1cz84eT_S7r_-RaYN4hqv_6-XkaSmjBWV_BYAGVupZVi6TYMPGnwheRM1vRO3dB-fx9btwTgHV6UlF7nXOAMJWptNz6Pqryc8vaDhTnq7J8I1B33LeUgC5K6u8JyDYgGbiniLP8gaT-Rl2Nd0mC23I6MslD8Jb2e6S-F0i05z_cMvqKW8caGyowmTxtHF1Www_jjEStWDde2aiaDggF9GRAjN6qcnkNBHY7oP5zFDzRhfH8NPRjZ0zWLyMpoIwzvNb_-elmwvmdgSlSajXb8f73vLGF7fsSK7iBck_5DWkugXlCf79reZlPBGbeyrycJDJ8nEvubIZNRfRpx5q24fWcT-jEJbSEE6sqzl-CTdeM8sMSwg_XcsRr1jNJA7zR62Ibzce7AoCJEQHIMraVZgX27qHZN_2Nd8tuJjT0IzncUlkwdU7_twva0XQHwOVVECbjuYy46lod7BS0TzW5j4QTTk9xDR2JO78wikIVasgvd3HQQvMqqXknY1XZC98tUqsMrHjrEzQpoahWh9n_-hn6pQXuWaRXYwiYdmVMPYfdTo2_F7gKmyh3ZaIjtgWtkMlSvu76A=w250-h238-p-k-rw-nu-v1"
+    },{
+        title:"Parmar Economics HINDI",
+        link:"https://drive.google.com/file/d/1os7z8xV4DPD9AWjn9xkd_SSsD2fLH0sH/view?usp=sharing",
+        img:"https://lh3.googleusercontent.com/fife/ALs6j_Hyvp6roIcEdeMwyW_OGWvdDdb_Xl2yrpAlOLztVgzb668b9R-snCvzNGUltkXmKpjOCshF8WzDDlj_CaT2zgg0mbVq64EzSGEPdK5Ebi0kGr3gqgbwLYzYGzLEB3R1M8caYLuYrMKa2cKMLbPrcFR4W5sN1MaETkF_ExdR5-G1Xr5eRdOIog32GZmWeYcq9QM1PMj7PRnUXkA-1VG3Bz2IYKMHrWchUOJhTVEk0ZQjskxtf9wSaLzybLuelnoJ3MHWmGKdUWrpdiOoI1sSpsMUHyEjt-_h9Q0pqA-OPH9OvADWQDr5JR6LBN7K7snraCYU1tHDxP2gERtiyP7IxYCliGwteSE24kqF_U5CSK6PX99t7AiUWu6uUo_q1VK0kXOB1zHDPbSZ5iw0MTvHFAuk80Ier6BaNyQk7tAhWjJUGFWsBOjHpANFsG-jD6tmHURlMHyF2ISjYyNJ0DYXFivKYWBKEh2mMqeVNCNAGXYCQZx1kspfusX_j1mkqPSh7prGRIiBAyIWirPM5FtSOUCiNBCVbXbqMRmPd4mrj1sKmMXsvlAH0erSQWudIh1TDIfWlVVmjuT7MkeqBUWybSnfXYOECubWBArLNb6eyy6BKA9Vn1WjCpvo-7_nVYf9JDZQXrTT3dbmekxThRAT-O0CaSXqMAHPdKfyXCAutfSJpfoTx2WQa6A-9oOibu8w_LN0ZPQRwOsJWHeU-QMpG9WHWz8UR2T0GDXqpe672pvvMaN6xyWk7t0AlRO11AFk0SV3LK6VS7kXzpuiUooCLvS63filvawezqrq0VdUH8sNBFa87CHGa4YqP6WOoacJiryub1DpR1g07htGuf070185KCNev5NH_sueiVRo7d24eXrAitffSHb2ZPWZhIrHMI1Hq2WnRA0QWOTWTQUkmFXJdun1yzameERQ0NxjI1vxQwK7gfMgxvOMDSf0oaIW1S4oBxdv4DhBNouAipHuDfElAtnDM2GC1DMmRikYXcZABqtzM6clGdNRhxiAVpSb75uJZDPQoxtVvU0ZqzQOmWRvUI6DUL9iQNVgdRcwAv7Qz-Uta4_aubN30jimhfouP1lskZ44ppRCA-w8jNYRVEhtXQSZNwyoWY3y98qtPcEkFPBQml87qrBPy__e_hp1lypTgWzkCWXxNC2QYjezZKD6Yg95R7H7QqJRnpu16sY4bn6wuBxs_-8Ug-C9WxSSC5dCpds7WzCJkQHcOGhLLaEechVC_lzxhgN8yYYYbyNFOkkekkpo6Pka6PYycW1cz84eT_S7r_-RaYN4hqv_6-XkaSmjBWV_BYAGVupZVi6TYMPGnwheRM1vRO3dB-fx9btwTgHV6UlF7nXOAMJWptNz6Pqryc8vaDhTnq7J8I1B33LeUgC5K6u8JyDYgGbiniLP8gaT-Rl2Nd0mC23I6MslD8Jb2e6S-F0i05z_cMvqKW8caGyowmTxtHF1Www_jjEStWDde2aiaDggF9GRAjN6qcnkNBHY7oP5zFDzRhfH8NPRjZ0zWLyMpoIwzvNb_-elmwvmdgSlSajXb8f73vLGF7fsSK7iBck_5DWkugXlCf79reZlPBGbeyrycJDJ8nEvubIZNRfRpx5q24fWcT-jEJbSEE6sqzl-CTdeM8sMSwg_XcsRr1jNJA7zR62Ibzce7AoCJEQHIMraVZgX27qHZN_2Nd8tuJjT0IzncUlkwdU7_twva0XQHwOVVECbjuYy46lod7BS0TzW5j4QTTk9xDR2JO78wikIVasgvd3HQQvMqqXknY1XZC98tUqsMrHjrEzQpoahWh9n_-hn6pQXuWaRXYwiYdmVMPYfdTo2_F7gKmyh3ZaIjtgWtkMlSvu76A=w250-h238-p-k-rw-nu-v1"
+       
+    },
+    {
+        title:"Geo. complete English",
+        link:"https://drive.google.com/file/d/1RZeDY_lsauNKhApFqRsFMR97aHPnbuJV/view?usp=sharing",
+        img:""
+
+    }
+    ,
+
+    {
+        title:"Modern History complete English notes",
+        link:"https://drive.google.com/file/d/1RqR35VT_3YIyd8l5vMPIDCTlFfEAxBup/view?usp=sharing",
+        img:""
+
+    },
+    {
+        title:"MEDIEVAL_HISTORY",
+        link:"https://drive.google.com/file/d/1Rj8NjwBtCf6-NUSHGcs8e6urgzK9YtE8/view?usp=sharing",
+        img:""
+
+    },
+    
+    {
+        title:"Polity English Notes",
+        link:"https://drive.google.com/file/d/1RuIIy7LeS40BexeT09RUy9-2dTmNFTIF/view?usp=sharing",
+        img:""
+
+    },
+    {
+        title:"Ancient History",
+        link:"https://drive.google.com/file/d/1Rh9mszVEXURbNxLcvjn5a2mFTfvG8uRF/view?usp=sharing",
+        img:""
+
+    },
+    {
+        title:"Complete Biology English",
+        link:"https://drive.google.com/file/d/1SBCSdUFb5NIOHP6T99nR-LGyDndwZPUW/view?usp=sharing",
+        img:""
+
+    },{
+        title:"Polity in Hindi",
+        link:"https://drive.google.com/file/d/1g5xBHFS-KCs1w4F59RnT_vv4_v3Mlsl4/view?usp=sharing",
+        img:""
+    },
+    {
+        title:"STATIC GK English",
+        link:"https://drive.google.com/file/d/1Wt07ltbv-0tqhuAIPkobMbcm_8bL5Hsw/view?usp=sharing",
+        img:""
+    }
+    ,{
+        title:"STATIC GK Hindi",
+        link:"https://drive.google.com/file/d/15W5kgxQEkfHVZp8UdgXer-Du86nYhw3R/view?usp=sharing",
+        img:""
+    }
+    ,{
+        title:"Chemistry English",
+        link:"https://drive.google.com/file/d/1NiZ9TIIUJnGSRyLdErMfdmT5pM4wD3xd/view?usp=sharing",
+        img:""
+    },{
+        title:"Chemistry Hindi",
+        link:"https://drive.google.com/file/d/1XiIqhCzKLxCrqdbT5_KrQtofiLUWQcOO/view?usp=sharing",
+        img:""
+    },
+    {
+        title:"Physics Hindi",
+        link:"https://drive.google.com/file/d/1LuZwF2OOWByxuB3qAMzKRWhJp8w2j-LV/view?usp=sharing",
+        img:""
+    },
+    {
+        title:"Physics English",
+        link:"https://drive.google.com/file/d/1gyRZoZ5xnLhF3uKH8NvBpqBJpcGhE9oV/view?usp=sharing",
+        img:""
+    },{
+        title:"Modern History Hindi",
+        link:"https://drive.google.com/file/d/1DdgHPnXqNiVH46omeNcCNVD5jT61Le7I/view?usp=sharing",
+        img:""
+    }
+    ,{
+        title:"Medieval History Hindi",
+        link:"https://drive.google.com/file/d/1XQwcu_aUsShxswbTeqapZ6KmD55-1oT_/view?usp=sharing",
+        img:""
+    },
+    {
+        title:"Ancient History Hindi",
+        link:"https://drive.google.com/file/d/1X2guoQI5Ckk0gtStNHqijpTsAWF1xDF4/view?usp=sharing",
+        img:""
+    }
+]
 
 export const English = [
     {
