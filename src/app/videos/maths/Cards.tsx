@@ -49,7 +49,8 @@ export default function CardApp() {
   return (
     <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
       {list.map((item, index) => (
-       <Link href={'youtube'}> <Card shadow="sm" key={index} >
+       <Link href={'youtube'}> 
+       <Card shadow="sm" key={Math.random()} >
           <CardBody key={Math.random()} className="overflow-visible p-0">
             <Image
               shadow="sm"
