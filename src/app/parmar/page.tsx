@@ -44,31 +44,11 @@ function Parmar() {
       <div className="flex w-full flex-col">
 
         <Tabs aria-label="Options">
-          <Tab key="GK" title="GK_SERIES">
-            <Card>
-              <CardBody>
-                <CardHoverEffectDemo items={Parmarpyq} />
-              </CardBody>
-            </Card>
-          </Tab>
-          <Tab key="eng" title="Nitto Series">
-            <Card>
-              <CardBody>
-                <CardHoverEffectDemo items={Parmarpyq} />
-              </CardBody>
-            </Card>
-          </Tab>
+        
 
 
-          <Tab key="current" title="Current Affairs">
-            <Card>
-              <CardBody>
-                <CardHoverEffectDemo items={CurrentAffairs} />
-              </CardBody>
-            </Card>
-          </Tab>
-
-          <Tab key="Economics" title="Economics">
+         
+          <Tab key="Economics" title="All Notes">
             <Card>
               <CardBody>
                 <div className=' ml-10 mt-6'>
@@ -76,7 +56,7 @@ function Parmar() {
                     value={mathquery}
                     onChange={MathhandleChange}
                     classNames={{
-                      base: "max-w-full sm:max-w-[10rem] h-10",
+                      base: "max-w-full sm:max-w-[10rem] h-10 mb-4",
                       mainWrapper: "h-full",
                       input: "text-small",
                       inputWrapper: "h-full font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20",

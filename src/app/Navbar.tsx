@@ -19,12 +19,12 @@ export default function MyNavbar() {
         </NavbarItem>
         <NavbarItem isActive>
           <Link href="#" aria-current="page">
-            Customers
+            
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="#">
-            Integrations
+            
           </Link>
         </NavbarItem>
       </NavbarContent>
