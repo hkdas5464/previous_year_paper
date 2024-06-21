@@ -8,7 +8,7 @@ export default function App({items}) {
         <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8">
 
             {items.map((e) => (
-                <Card key={Math.random()} isFooterBlurred className="w-full h-[250px] col-span-12 sm:col-span-4">
+                <Card isFooterBlurred className="w-full h-[250px] col-span-12 sm:col-span-4">
                     <CardHeader className="absolute z-10 top-1 flex-col items-start">
                         <p className="text-tiny text-white/60 uppercase font-bold">New</p>
                         <h4 className="text-white font-medium text-2xl">{e.title}</h4>
