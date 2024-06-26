@@ -458,3 +458,111 @@ export const vocab_day_5: Subjects[] = [
 
 ]
 
+
+
+export const Dumrao_Vocab_3: Subjects[] = [
+    {
+        voc: "MAMMOTH",
+        meaning: "विशाल"
+    },
+    {
+        voc: "PIQUANT",
+        meaning: "सरस"
+    },{
+        voc: "BELLICOSE",
+        meaning: "लड़ाकू"
+    },{
+        voc: "SLITHER",
+        meaning: "लुढ़कना"
+    },{
+        voc: "ASSUAGE",
+        meaning: "शांत करना"
+    },{
+        voc: "VANISH",
+        meaning: "गायब होना"
+    },{
+        voc: "EGOTIST",
+        meaning: "अहंवादी"
+    },{
+        voc: "LOQUACIOUS",
+        meaning: "बातूनी"
+    },{
+        voc: "SOMNILOQUIST",
+        meaning: "जो नींद में बात करे"
+    },{
+        voc: "PERFECT",
+        meaning: "उत्तम"
+    },
+]
+
+
+export const Dumrao_Vocab_1: Subjects[] = [
+    {
+        voc: "FLAMBOYANT",
+        meaning: "दिखावा करने वाला"
+    },
+    {
+        voc: "DEBONAIR",
+        meaning: "आकर्षक"
+    },{
+        voc: "DROWSY",
+        meaning: "सुस्त"
+    },{
+        voc: "FASTIDIOUS",
+        meaning: "नखरेबाज"
+    },{
+        voc: "FLABBERGAST",
+        meaning: "हैरत में डालना"
+    },{
+        voc: "GUFFAW",
+        meaning: "खिलखिलाकर हंसना"
+    },{
+        voc: "LANGUID",
+        meaning: "आलसी"
+    },{
+        voc: "ASTONISHED",
+        meaning: "आश्चर्यचकित"
+    },{
+        voc: "LOATHE",
+        meaning: "घृणा करना"
+    },{
+        voc: "BAFFLED",
+        meaning: "Confused /उलझन"
+    },
+]
+
+
+export const Dumrao_Vocab_2: Subjects[] = [
+    {
+        voc: "MOROSE",
+        meaning: "उदास"
+    },
+    {
+        voc: "ECSTATIC",
+        meaning: "बहुत ख़ुशी"
+    },{
+        voc: "AMIABLE",
+        meaning: "सुशील"
+    },{
+        voc: "FURIOUS",
+        meaning: "आगबबूला / गुस्सा"
+    },{
+        voc: "GLUTTON",
+        meaning: "पेटू"
+    },{
+        voc: "THRILLED",
+        meaning: "उत्तेजित"
+    },{
+        voc: "SPLENDID",
+        meaning: "बहुत प्रभावशाली और आकर्षक"
+    },{
+        voc: "REBUT",
+        meaning: "गलत साबित करना"
+    },{
+        voc: "PERPLEXED",
+        meaning: "उलझन में"
+    },{
+        voc: "WITCHCRAFT",
+        meaning: "जादू टोना"
+    },
+]

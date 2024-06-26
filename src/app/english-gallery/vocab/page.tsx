@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import { Tabs, Tab, Card, CardBody, CardHeader, Checkbox } from "@nextui-org/react";
-import { vocab_day_1, vocab_day_2, vocab_day_3, vocab_day_4, vocab_day_5 } from './data'
+import { Dumrao_Vocab_1, Dumrao_Vocab_2, Dumrao_Vocab_3, vocab_day_1, vocab_day_2, vocab_day_3, vocab_day_4, vocab_day_5 } from './data'
 import './app.css'
 
 
@@ -30,9 +30,9 @@ export default function App() {
                                     <div className="flip-card">
                                         <div className="flip-card-inner">
                                             <div className="flip-card-front">
-                                            <p>{1 + index}</p>
+                                                <p>{1 + index}</p>
                                                 <p className="title">{e.voc}</p>
-                                                
+
                                             </div>
                                             <div className="flip-card-back">
                                                 <p className="title">{e.meaning}</p>
@@ -134,6 +134,76 @@ export default function App() {
                             ))}
                         </Card>
                     </Tab>
+
+
+                    <Tab key="Day_5" title="Day_5">
+
+                        <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
+                            {Dumrao_Vocab_1.map((e, index) => (
+                                <CardBody key={Math.random()} className="overflow-visible p-0">
+                                    <div className="flip-card">
+                                        <div className="flip-card-inner">
+                                            <div className="flip-card-front">
+                                                <p className="title">{e.voc}</p>
+                                                <p>{index + 1}</p>
+                                            </div>
+                                            <div className="flip-card-back">
+                                                <p className="title">{e.meaning}</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </CardBody>
+                            ))}
+                        </Card>
+                    </Tab>
+
+
+                    <Tab key="Day_5" title="Day_5">
+
+                        <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
+                            {Dumrao_Vocab_2.map((e, index) => (
+                                <CardBody key={Math.random()} className="overflow-visible p-0">
+                                    <div className="flip-card">
+                                        <div className="flip-card-inner">
+                                            <div className="flip-card-front">
+                                                <p className="title">{e.voc}</p>
+                                                <p>{index + 1}</p>
+                                            </div>
+                                            <div className="flip-card-back">
+                                                <p className="title">{e.meaning}</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </CardBody>
+                            ))}
+                        </Card>
+                    </Tab>
+
+
+                    <Tab key="Day_5" title="Day_5">
+
+                        <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
+                            {Dumrao_Vocab_3.map((e, index) => (
+                                <CardBody key={Math.random()} className="overflow-visible p-0">
+                                    <div className="flip-card">
+                                        <div className="flip-card-inner">
+                                            <div className="flip-card-front">
+                                                <p className="title">{e.voc}</p>
+                                                <p>{index + 1}</p>
+                                            </div>
+                                            <div className="flip-card-back">
+                                                <p className="title">{e.meaning}</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </CardBody>
+                            ))}
+                        </Card>
+                    </Tab>
+
                 </Tabs>
             </div>
         </div>
