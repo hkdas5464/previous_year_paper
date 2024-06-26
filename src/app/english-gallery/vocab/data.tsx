@@ -467,7 +467,7 @@ export const Dumrao_Vocab_3: Subjects[] = [
     },
     {
         voc: "PIQUANT",
-        meaning: "सरस"
+        meaning: "मसालेदार, चटपटा"
     },{
         voc: "BELLICOSE",
         meaning: "लड़ाकू"
