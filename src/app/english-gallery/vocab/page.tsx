@@ -136,7 +136,7 @@ export default function App() {
                     </Tab>
 
 
-                    <Tab key="Day_5" title="Day_5">
+                    <Tab key="Dumrao_Vocab_1" title="Dumrao_Vocab_1">
 
                         <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
                             {Dumrao_Vocab_1.map((e, index) => (
@@ -159,7 +159,7 @@ export default function App() {
                     </Tab>
 
 
-                    <Tab key="Day_5" title="Day_5">
+                    <Tab key="Dumrao_Vocab_2" title="Dumrao_Vocab_2">
 
                         <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
                             {Dumrao_Vocab_2.map((e, index) => (
@@ -182,7 +182,7 @@ export default function App() {
                     </Tab>
 
 
-                    <Tab key="Day_5" title="Day_5">
+                    <Tab key="Dumrao_Vocab_3" title="Dumrao_Vocab_3">
 
                         <Card className="gap-2 grid grid-cols-2 sm:grid-cols-4">
                             {Dumrao_Vocab_3.map((e, index) => (
