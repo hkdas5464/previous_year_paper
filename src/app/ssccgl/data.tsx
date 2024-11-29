@@ -118,7 +118,7 @@ export const Reasoning = [{
 }]
 
 
-export const Mathsdata:Subjects[] = [
+export const Mathsdata: Subjects[] = [
     {
         description: "Selection_Post_Phase_viii_,ix,_x,_xi_All_Maths_Questions",
         title: "Selection_Post_Phase",
@@ -289,25 +289,98 @@ export const EnglishData = [
         link: "https://drive.google.com/file/d/1BmztFAtnQOvNFWJXp9Q7rwBJEVwSGKv-/view?usp=sharing"
     },
     {
-    description: "English topic-wise SSC CPO 2023 T-1_img_RBE_compressed",
-    title: 'English All',
-    link: "https://drive.google.com/file/d/10zHzVqk9XqnR8Q7FPp0SAZX2AX6-Qcfb/view?usp=sharing"
-},
-{
-    description: "Last 5 Years IDIOMS",
-    title: 'IDIOMS',
-    link: "https://drive.google.com/file/d/15dYP18h4MFoJ5J0HF1rQRud_hvLocyV5/view?usp=sharing"
-}
+        description: "English topic-wise SSC CPO 2023 T-1_img_RBE_compressed",
+        title: 'English All',
+        link: "https://drive.google.com/file/d/10zHzVqk9XqnR8Q7FPp0SAZX2AX6-Qcfb/view?usp=sharing"
+    },
+    {
+        description: "Last 5 Years IDIOMS",
+        title: 'IDIOMS',
+        link: "https://drive.google.com/file/d/15dYP18h4MFoJ5J0HF1rQRud_hvLocyV5/view?usp=sharing"
+    }
     ,
-{
-    description: "IB ACIO 2024 complete solution eBook",
-    title: 'IB ACIO 2024',
-    link: "https://drive.google.com/file/d/14mq4sP2RDc781MMpHX2eEkCz5lamJg-A/view?usp=sharing"
-}
+    {
+        description: "IB ACIO 2024 complete solution eBook",
+        title: 'IB ACIO 2024',
+        link: "https://drive.google.com/file/d/14mq4sP2RDc781MMpHX2eEkCz5lamJg-A/view?usp=sharing"
+    }
     ,
-{
-    description: "IB ACIO 2024 Complete Vocab eBook",
-    title: 'IB ACIO VOCAB',
-    link: "https://drive.google.com/file/d/1vV2vfbqjDja5gI2twErSretHrPeeVRlV/view?usp=sharing"
-}
+    {
+        description: "IB ACIO 2024 Complete Vocab eBook",
+        title: 'IB ACIO VOCAB',
+        link: "https://drive.google.com/file/d/1vV2vfbqjDja5gI2twErSretHrPeeVRlV/view?usp=sharing"
+    }
 ]
+
+export const animals = [
+    { key: "SSC2024", label: "2024" },
+    { key: "SSC2023", label: "2023" },
+    { key: "SSC2022", label: "2022" },
+    { key: "SSC2021", label: "2021" },
+    { key: "SSC2020", label: "2020" },
+    { key: "SSC2019", label: "2019" },
+    { key: "SSC2018", label: "2018" },
+
+];
+
+
+export const SSC2024 = [
+    { key: "SSC CHSL TIRE 2 2024", label: "SSC CHSL TIRE 2 2024", link: "https://drive.google.com/file/d/1T9C0uZzaw-aiAfZA62u_1noRS4LcfXix/view?usp=drive_link" },
+    { key: "SSC CGL 2024", label: "SSC CGL 2024", link: "https://drive.google.com/file/d/1HMhbtPsPEaaYHx71TEctRBhQDSXsMc9o/view?usp=sharing" },
+    { key: "SSC CGL 2024 MATHS ALL TOPIC WISE", label: "SSC CGL 2024 MATHS ALL TOPIC WISE", link: "https://drive.google.com/file/d/15BAEXxrsB7sje1U_22JbxdI8qNZOddXv/view?usp=sharing" },
+    { key: "SSC CGL 2024 ENGLISH ALL", label: "SSC CGL 2024 ENGLISH MATHS ALL", link: "https://drive.google.com/file/d/142pNPh-1_gS2_4TTGl7cJK8k7ZmMdSTv/view?usp=sharing" },
+    { key: "SSC CGL 2024 REASONING ALL", label: "SSC CGL 2024 REASONING ALL", link: "https://drive.google.com/file/d/1Q4onFNbbb1fMqAjsWl1XyBnkBQuWZAcS/view?usp=sharing" },
+    { key: "SSC CGL 2024 GK/GS ENGLISH ALL TOPIC WISE", label: "SSC CGL 2024 GK/GS ENGLISH ALL TOPIC WISE", link: "https://drive.google.com/file/d/1WH5VVCqJRg7bSxw8XvSamEOuZrKgJB-5/view?usp=sharing" },
+    { key: "SSC CGL 2024 GK/GS HINDI ALL TOPIC WISE", label: "SSC CGL 2024 GK/GS HINDI ALL TOPIC WISE", link: "https://drive.google.com/file/d/1NObNixWuYaWMWeFdYpIOEb6lwNC94v8Q/view?usp=sharing" },
+    { key: "2019", label: "2019", link: "" },
+    { key: "2018", label: "2018", link: "" },
+
+];
+
+export const SSC2023 = [
+    { key: "SSC CHSL TIRE 2 2023", label: "SSC CHSL TIRE 2 2023", link: "https://drive.google.com/file/d/1T9C0uZzaw-aiAfZA62u_1noRS4LcfXix/view?usp=drive_link" },
+    { key: "SSC CGL 2023", label: "SSC CGL 2023", link: "https://drive.google.com/file/d/1HMhbtPsPEaaYHx71TEctRBhQDSXsMc9o/view?usp=sharing" },
+    { key: "SSC CGL 2023 MATHS ALL TOPIC WISE", label: "SSC CGL 2024 MATHS ALL TOPIC WISE", link: "https://drive.google.com/file/d/15BAEXxrsB7sje1U_22JbxdI8qNZOddXv/view?usp=sharing" },
+    { key: "SSC CGL 2023 ENGLISH ALL", label: "SSC CGL 2023 ENGLISH MATHS ALL", link: "https://drive.google.com/file/d/142pNPh-1_gS2_4TTGl7cJK8k7ZmMdSTv/view?usp=sharing" },
+    { key: "SSC CGL 2023 REASONING ALL", label: "SSC CGL 2023 REASONING ALL", link: "https://drive.google.com/file/d/1Q4onFNbbb1fMqAjsWl1XyBnkBQuWZAcS/view?usp=sharing" },
+    { key: "SSC CGL 2023 GK/GS ENGLISH ALL TOPIC WISE", label: "SSC CGL 2023 GK/GS ENGLISH ALL TOPIC WISE", link: "https://drive.google.com/file/d/1WH5VVCqJRg7bSxw8XvSamEOuZrKgJB-5/view?usp=sharing" },
+    { key: "SSC CGL 2023 GK/GS HINDI ALL TOPIC WISE", label: "SSC CGL 2023 GK/GS HINDI ALL TOPIC WISE", link: "https://drive.google.com/file/d/1NObNixWuYaWMWeFdYpIOEb6lwNC94v8Q/view?usp=sharing" },
+    { key: "2019", label: "2019", link: "" },
+    { key: "2018", label: "2018", link: "" },
+
+];
+
+
+
+export const countryStateData = [
+    {
+        countryKey: 'SSC2024',
+        countryName: 'SSC2024',
+        states: [
+            { key: "SSC CHSL TIRE 2 2024", label: "SSC CHSL TIRE 2 2024", link: "https://drive.google.com/file/d/1T9C0uZzaw-aiAfZA62u_1noRS4LcfXix/view?usp=drive_link" },
+            { key: "SSC CGL 2024", label: "SSC CGL 2024", link: "https://drive.google.com/file/d/1HMhbtPsPEaaYHx71TEctRBhQDSXsMc9o/view?usp=sharing" },
+            { key: "SSC CGL 2024 MATHS ALL TOPIC WISE", label: "SSC CGL 2024 MATHS ALL TOPIC WISE", link: "https://drive.google.com/file/d/15BAEXxrsB7sje1U_22JbxdI8qNZOddXv/view?usp=sharing" },
+            { key: "SSC CGL 2024 ENGLISH ALL", label: "SSC CGL 2024 ENGLISH MATHS ALL", link: "https://drive.google.com/file/d/142pNPh-1_gS2_4TTGl7cJK8k7ZmMdSTv/view?usp=sharing" },
+            { key: "SSC CGL 2024 REASONING ALL", label: "SSC CGL 2024 REASONING ALL", link: "https://drive.google.com/file/d/1Q4onFNbbb1fMqAjsWl1XyBnkBQuWZAcS/view?usp=sharing" },
+            { key: "SSC CGL 2024 GK/GS ENGLISH ALL TOPIC WISE", label: "SSC CGL 2024 GK/GS ENGLISH ALL TOPIC WISE", link: "https://drive.google.com/file/d/1WH5VVCqJRg7bSxw8XvSamEOuZrKgJB-5/view?usp=sharing" },
+            { key: "SSC CGL 2024 GK/GS HINDI ALL TOPIC WISE", label: "SSC CGL 2024 GK/GS HINDI ALL TOPIC WISE", link: "https://drive.google.com/file/d/1NObNixWuYaWMWeFdYpIOEb6lwNC94v8Q/view?usp=sharing" },
+            { key: "2019", label: "2019", link: "" },
+            { key: "2018", label: "2018", link: "" },
+        ],
+    },
+    {
+        countryKey: 'SSC2023',
+        countryName: 'SSC2023',
+        states: [
+            { key: "SSC CHSL TIRE 2 2023", label: "SSC CHSL TIRE 2 2023", link: "https://drive.google.com/file/d/1T9C0uZzaw-aiAfZA62u_1noRS4LcfXix/view?usp=drive_link" },
+            { key: "SSC CGL 2023", label: "SSC CGL 2023", link: "https://drive.google.com/file/d/1HMhbtPsPEaaYHx71TEctRBhQDSXsMc9o/view?usp=sharing" },
+            { key: "SSC CGL 2023 MATHS ALL TOPIC WISE", label: "SSC CGL 2024 MATHS ALL TOPIC WISE", link: "https://drive.google.com/file/d/15BAEXxrsB7sje1U_22JbxdI8qNZOddXv/view?usp=sharing" },
+            { key: "SSC CGL 2023 ENGLISH ALL", label: "SSC CGL 2023 ENGLISH MATHS ALL", link: "https://drive.google.com/file/d/142pNPh-1_gS2_4TTGl7cJK8k7ZmMdSTv/view?usp=sharing" },
+            { key: "SSC CGL 2023 REASONING ALL", label: "SSC CGL 2023 REASONING ALL", link: "https://drive.google.com/file/d/1Q4onFNbbb1fMqAjsWl1XyBnkBQuWZAcS/view?usp=sharing" },
+            { key: "SSC CGL 2023 GK/GS ENGLISH ALL TOPIC WISE", label: "SSC CGL 2023 GK/GS ENGLISH ALL TOPIC WISE", link: "https://drive.google.com/file/d/1WH5VVCqJRg7bSxw8XvSamEOuZrKgJB-5/view?usp=sharing" },
+            { key: "SSC CGL 2023 GK/GS HINDI ALL TOPIC WISE", label: "SSC CGL 2023 GK/GS HINDI ALL TOPIC WISE", link: "https://drive.google.com/file/d/1NObNixWuYaWMWeFdYpIOEb6lwNC94v8Q/view?usp=sharing" },
+            { key: "2019", label: "2019", link: "" },
+            { key: "2018", label: "2018", link: "" },
+        ],
+    }
+];
