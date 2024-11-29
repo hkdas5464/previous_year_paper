@@ -13,7 +13,6 @@ import {
 import LightGallery from "lightgallery/react";
 import Link from "next/link";
 import {SlideshowLightbox} from 'lightbox.js-react'
-import 'lightbox.js-react/dist/index.css'
 
 function Mathgallery() {
   return (
