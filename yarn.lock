@@ -4967,7 +4967,7 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
-lightbox.js-react@^1.0.8:
+lightbox.js-react@^1.2.2:
   version "1.2.2"
   resolved "https://registry.npmjs.org/lightbox.js-react/-/lightbox.js-react-1.2.2.tgz"
   integrity sha512-3XyPdX0+exCVKcOJUbpUh4O21KKGYTsm/px2AIqR+xL22SZiphvn9p0f+DIOpxSaAH38G3Np/cGLY7XTLtbcsA==

@@ -25,7 +25,7 @@
     "fs": "^0.0.1-security",
     "imagemin": "^9.0.0",
     "imagemin-jpegtran": "^7.0.0",
-    "lightbox.js-react": "^1.0.8",
+    "lightbox.js-react": "^1.2.2",
     "lightgallery": "^2.7.2",
     "lucide-react": "^0.395.0",
     "next": "14.2.2",
