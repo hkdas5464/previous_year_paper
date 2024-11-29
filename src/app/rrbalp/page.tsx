@@ -125,7 +125,7 @@ function SSCCGL() {
               <Card className='mt-2'>
               <CardBody >
                 {states.map((e) => (
-                  <Card className='m-2'>
+                  <Card className='m-2' key={Math.random()}>
                     <CardHeader className="flex gap-3">
                       <FaFilePdf className="w-8 h-8" />
                       <div className="flex flex-col">
@@ -145,7 +145,7 @@ function SSCCGL() {
               <CardBody>
                 <div className=' ml-10 mt-6'>
                 {SSC2024.map((e) => (
-                  <Card className='m-2'>
+                  <Card className='m-2' key={Math.random()}>
                     <CardHeader className="flex gap-3">
                       <FaFilePdf className="w-8 h-8" />
                       <div className="flex flex-col">
