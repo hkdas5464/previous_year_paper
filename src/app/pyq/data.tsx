@@ -378,7 +378,7 @@ export const countryStateData = [
         countryKey: 'SSC2022',
         countryName: 'SSC 2022',
         states: [
-            { key: "SSC CHSL TIRE 2 2023", label: "SSC CHSL TIRE 2 2023", link: "https://drive.google.com/file/d/1T9C0uZzaw-aiAfZA62u_1noRS4LcfXix/view?usp=drive_link" },
+            { key: "SSC CGL TIRE 1 2022", label: "SSC CGL TIRE 1 2022", link: "https://www.dropbox.com/scl/fi/ztzoqelva0wq7qnq3grry/SSC-CGL-2022-T-1-40-SETS-ENGLISH.pdf?rlkey=p0i9gdmv41xytpjuoiym04jrd&st=n2hjpzdg&dl=0" },
             { key: "SSC CGL 2023", label: "SSC CGL 2023", link: "https://drive.google.com/file/d/1HMhbtPsPEaaYHx71TEctRBhQDSXsMc9o/view?usp=sharing" },
             { key: "SSC CGL 2023 MATHS ALL TOPIC WISE", label: "SSC CGL 2024 MATHS ALL TOPIC WISE", link: "https://drive.google.com/file/d/15BAEXxrsB7sje1U_22JbxdI8qNZOddXv/view?usp=sharing" },
             { key: "SSC CGL 2023 ENGLISH ALL", label: "SSC CGL 2023 ENGLISH MATHS ALL", link: "https://drive.google.com/file/d/142pNPh-1_gS2_4TTGl7cJK8k7ZmMdSTv/view?usp=sharing" },
