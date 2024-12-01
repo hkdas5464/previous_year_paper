@@ -28,7 +28,7 @@ function SSCCGL() {
   const [gsquery, setgsQuery] = useState('');
 
 
-  
+
   const MathsearchFilter = (array: Subjects[]) => {
     return array.filter(
       (el) => el.title.toLowerCase().includes(mathquery)
@@ -92,9 +92,9 @@ function SSCCGL() {
     setStates(country ? country.states : []);
     setIsActive(true); // Toggle between true and false
 
-    
+
   };
-  
+
 
 
   return (
@@ -104,68 +104,144 @@ function SSCCGL() {
       </p>
 
       <div className="flex w-full flex-col">
-        
-            <div className="w-full flex flex-row flex-wrap gap-4">
+        <Tabs aria-label="Options">
 
-              <Select
-                label="Select Year"
-                className="max-w-xs"
-                placeholder='MATHEMATICS'
-                onChange={handleCountryChange}
-              >
-                {countryStateData.map((country) => (
-                  <SelectItem key={country.countryKey}  value={country.countryKey}>
-                    {country.countryName}
-                  </SelectItem>
-                ))}
-              </Select>
+          <Tab key="ssc" title="SSC">
+            <div className="flex w-full flex-col">
+
+              <div className="w-full flex flex-row flex-wrap gap-4">
+
+                <Select
+                  label="Select Year"
+                  className="max-w-xs"
+                  placeholder='MATHEMATICS'
+                  onChange={handleCountryChange}
+                >
+                  {countryStateData.map((country) => (
+                    <SelectItem key={country.countryKey} value={country.countryKey}>
+                      {country.countryName}
+                    </SelectItem>
+                  ))}
+                </Select>
+              </div>
+
+              <div className={isActive ? 'box' : 'pyq'}>
+                <Card className='mt-2'>
+                  <CardBody >
+                    {states.map((e) => (
+                      <Card className='m-2' key={Math.random()}>
+                        <CardHeader className="flex gap-3">
+                          <FaFilePdf className="w-8 h-8" />
+                          <div className="flex flex-col">
+                            <Link href={e.link} className="text-md">{e.label}</Link>
+                          </div>
+                        </CardHeader>
+
+                      </Card>
+                    ))}
+
+                  </CardBody>
+                </Card>
+              </div>
+              <div className={isActive ? 'boxactive' : 'box'}>
+
+                <Card className='mt-2'>
+                  <CardBody>
+                    <div className=' ml-10 mt-6'>
+                      {SSC2024.map((e) => (
+                        <Card className='m-2' key={Math.random()}>
+                          <CardHeader className="flex gap-3">
+                            <FaFilePdf className="w-8 h-8" />
+                            <div className="flex flex-col">
+                              <Link href={e.link} className="text-md">{e.label}</Link>
+                            </div>
+                          </CardHeader>
+
+                        </Card>
+                      ))}
+                    </div>
+                  </CardBody>
+                </Card>
+              </div>
             </div>
-            
-            <div className={isActive ? 'box' : 'pyq'}>
-              <Card className='mt-2'>
-              <CardBody >
-                {states.map((e) => (
-                  <Card className='m-2' key={Math.random()}>
-                    <CardHeader className="flex gap-3">
-                      <FaFilePdf className="w-8 h-8" />
-                      <div className="flex flex-col">
-                        <Link href={e.link} className="text-md">{e.label}</Link>
-                      </div>
-                    </CardHeader>
-
-                  </Card>
-                ))}
-
-              </CardBody>
-              </Card>
-            </div>
-            <div className={isActive ? 'boxactive' : 'box'}>
-
-            <Card className='mt-2'>
+          </Tab>
+          <Tab key="jpsc" title="JPSC">
+            <Card>
               <CardBody>
                 <div className=' ml-10 mt-6'>
-                {SSC2024.map((e) => (
-                  <Card className='m-2' key={Math.random()}>
-                    <CardHeader className="flex gap-3">
-                      <FaFilePdf className="w-8 h-8" />
-                      <div className="flex flex-col">
-                        <Link href={e.link} className="text-md">{e.label}</Link>
-                      </div>
-                    </CardHeader>
-
-                  </Card>
-                ))}
+                  <Input
+                    onChange={EnghandleChange}
+                    value={englishquery}
+                    classNames={{
+                      base: "max-w-full sm:max-w-[10rem] h-10",
+                      mainWrapper: "h-full",
+                      input: "text-small",
+                      inputWrapper: "h-full font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20",
+                    }}
+                    placeholder="Type to search..."
+                    size="sm"
+                    startContent={<SearchIcon size={18} height={18} width={18} />}
+                    type="search"
+                  />
                 </div>
-                
-
+                <CardHoverEffectDemo items={EnglishsearchFilter(EnglishData)} />
               </CardBody>
             </Card>
-            </div>
-
-     
-        
-         
-       
+          </Tab>
+          <Tab key="upsc" title="UPSC">
+            <Card>
+              <CardBody>
+                <div className=' ml-10 mt-6'>
+                  <Input
+                    onChange={ReashandleChange}
+                    value={reasquery}
+                    classNames={{
+                      base: "max-w-full sm:max-w-[10rem] h-10",
+                      mainWrapper: "h-full",
+                      input: "text-small",
+                      inputWrapper: "h-full font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20",
+                    }}
+                    placeholder="Type to search..."
+                    size="sm"
+                    startContent={<SearchIcon size={18} height={18} width={18} />}
+                    type="search"
+                  />
+                </div>
+                <CardHoverEffectDemo items={ReasoningsearchFilter(Reasoning)} />
+              </CardBody>
+            </Card>
+          </Tab>
+          <Tab key="gk" title="GK">
+            <Card>
+              <CardBody>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </CardBody>
+            </Card>
+          </Tab>
+          <Tab key="current" title="Current Affairs">
+            <Card>
+              <CardBody>
+                <div className=' ml-10 mt-6'>
+                  <Input
+                    onChange={GshandleChange}
+                    value={gsquery}
+                    classNames={{
+                      base: "max-w-full sm:max-w-[10rem] h-10",
+                      mainWrapper: "h-full",
+                      input: "text-small",
+                      inputWrapper: "h-full font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20",
+                    }}
+                    placeholder="Type to search..."
+                    size="sm"
+                    startContent={<SearchIcon size={18} height={18} width={18} />}
+                    type="search"
+                  />
+                </div>
+                <CardHoverEffectDemo items={GssearchFilter(CurrentAffairs)} />
+              </CardBody>
+            </Card>
+          </Tab>
+        </Tabs>
       </div>
     </div>
   )

@@ -325,16 +325,9 @@ export const animals = [
 
 
 export const SSC2024 = [
-    { key: "SSC CHSL TIRE 2 2024", label: "SSC CHSL TIRE 2 2024", link: "https://drive.google.com/file/d/1T9C0uZzaw-aiAfZA62u_1noRS4LcfXix/view?usp=drive_link" },
-    { key: "SSC CGL 2024 TIRE 1", label: "SSC CGL 2024", link: "https://drive.google.com/file/d/1HMhbtPsPEaaYHx71TEctRBhQDSXsMc9o/view?usp=sharing" },
-    { key: "SSC CGL 2024 MATHS ALL TOPIC WISE", label: "SSC CGL 2024 MATHS ALL TOPIC WISE", link: "https://drive.google.com/file/d/15BAEXxrsB7sje1U_22JbxdI8qNZOddXv/view?usp=sharing" },
-    { key: "SSC CGL 2024 ENGLISH ALL", label: "SSC CGL 2024 ENGLISH MATHS ALL", link: "https://drive.google.com/file/d/142pNPh-1_gS2_4TTGl7cJK8k7ZmMdSTv/view?usp=sharing" },
-    { key: "SSC CGL 2024 REASONING ALL", label: "SSC CGL 2024 REASONING ALL", link: "https://drive.google.com/file/d/1Q4onFNbbb1fMqAjsWl1XyBnkBQuWZAcS/view?usp=sharing" },
-    { key: "SSC CGL 2024 GK/GS ENGLISH ALL TOPIC WISE", label: "SSC CGL 2024 GK/GS ENGLISH ALL TOPIC WISE", link: "https://drive.google.com/file/d/1WH5VVCqJRg7bSxw8XvSamEOuZrKgJB-5/view?usp=sharing" },
-    { key: "SSC CGL 2024 GK/GS HINDI ALL TOPIC WISE", label: "SSC CGL 2024 GK/GS HINDI ALL TOPIC WISE", link: "https://drive.google.com/file/d/1NObNixWuYaWMWeFdYpIOEb6lwNC94v8Q/view?usp=sharing" },
-    { key: "SSC CHSL 2024 TIRE 1", label: "SSC CHSL 2024 TIRE 1", link: "https://drive.google.com/file/d/1lOP_4ev-svJ2ped6j82qkIurrBfP6eut/view?usp=sharing" },
-    { key: "SSC CPO 2024 TIRE 1", label: "SSC CPO 2024 TIRE 1", link: "https://drive.google.com/file/d/1l9kEyZlBN6hbhdifZ2zUZdnep4jL1xBw/view?usp=sharing" },
-    {key:"SSC PHASE XII 2024 ",label:"SSC PHASE XII 2024",link:"https://drive.google.com/file/d/1PsPv7Wf52mrruTKPoE5eV8QQr46be6FP/view?usp=sharing"}
+    { key: "SUPER PRACTICE SET SSC CGL MAINS", label: "SUPER PRACTICE SET SSC CGL MAINS", link: "https://drive.google.com/file/d/1HttRCsOTlO_UMNL7dunjQT-kJhbPOLUL/preview" },
+    { key: "SSC CGL 2024 TIRE 1", label: "SSC CGL 2024", link: "https://drive.google.com/file/d/1HMhbtPsPEaaYHx71TEctRBhQDSXsMc9o/preview" },
+  
 ];
 
 

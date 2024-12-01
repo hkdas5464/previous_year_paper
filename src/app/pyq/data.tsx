@@ -337,6 +337,13 @@ export const SSC2024 = [
     {key:"SSC PHASE XII 2024 ",label:"SSC PHASE XII 2024",link:"https://drive.google.com/file/d/1PsPv7Wf52mrruTKPoE5eV8QQr46be6FP/view?usp=sharing"}
 ];
 
+export const jpsc2021 = [
+    { key: "GENERAL STUDIES I", label: "GENERAL STUDIES I", link: "https://drive.google.com/file/d/1g3Q58s_A1Mh45UUd2SZhwn5q1fM4FH0e/preview" },
+    {key:"GENERAL STUDIES II",label:'GENERAL STUDIES II',link:"https://drive.google.com/file/d/1zX-yZSRRlsa2gXhWZemW8HL4U6oM1k5y/preview"},
+    {key:"INDIAN CONSTITUTION AND POLITY, PUBLIC ADMINISTRATION AND GOOD GOVERNANCE",label:'INDIAN CONSTITUTION AND POLITY, PUBLIC ADMINISTRATION AND GOOD GOVERNANCE',link:"https://drive.google.com/file/d/1Qi8Dxv1TvlMFHc3fnkXum-oh41FPeVfq/preview"},
+    {key:"INDIAN EICONOMY, GLOBALIZATION AND SUSTAINABLH DEVELOPMENT",label:'INDIAN EICONOMY, GLOBALIZATION AND SUSTAINABLH DEVELOPMENT',link:"https://drive.google.com/file/d/1aGD6HUdt4H1dNnBpHoycORhETZAWgd-G/preview"}
+];
+
 
 
 
@@ -435,3 +442,97 @@ export const countryStateData = [
         ],
     }
 ];
+
+
+export const jpscData = [
+    {
+        countryKey: 'JPSC2021',
+        countryName: 'JPSC 2021',
+        states: [
+            { key: "GENERAL STUDIES I", label: "GENERAL STUDIES I", link: "https://drive.google.com/file/d/1g3Q58s_A1Mh45UUd2SZhwn5q1fM4FH0e/preview" },
+            {key:"GENERAL STUDIES II",label:'GENERAL STUDIES II',link:"https://drive.google.com/file/d/1zX-yZSRRlsa2gXhWZemW8HL4U6oM1k5y/preview"},
+            {key:"INDIAN CONSTITUTION AND POLITY, PUBLIC ADMINISTRATION AND GOOD GOVERNANCE",label:'INDIAN CONSTITUTION AND POLITY, PUBLIC ADMINISTRATION AND GOOD GOVERNANCE',link:"https://drive.google.com/file/d/1Qi8Dxv1TvlMFHc3fnkXum-oh41FPeVfq/preview"},
+            {key:"INDIAN EICONOMY, GLOBALIZATION AND SUSTAINABLH DEVELOPMENT",label:'INDIAN EICONOMY, GLOBALIZATION AND SUSTAINABLH DEVELOPMENT',link:"https://drive.google.com/file/d/1aGD6HUdt4H1dNnBpHoycORhETZAWgd-G/preview"}
+
+
+        ],
+    },
+    {
+        countryKey: 'JPSC 2020',
+        countryName: 'JPSC 2020',
+        states: [
+            { key: "SSC CHSL TIRE 2 2023", label: "SSC CHSL TIRE 2 2023", link: "https://drive.google.com/file/d/1g3Q58s_A1Mh45UUd2SZhwn5q1fM4FH0e/preview" },
+            { key: "SSC CGL 2023", label: "SSC CGL 2023", link: "https://drive.google.com/viewerng/viewer?embedded=true&url=https://cdn.kitchencabinetkings.com/media/siege/kitchen-printables/kitchen-printables_avocado-toast_poster.pdf" },
+            { key: "SSC CGL 2023 MATHS ALL TOPIC WISE", label: "SSC CGL 2024 MATHS ALL TOPIC WISE", link: "https://drive.google.com/file/d/15BAEXxrsB7sje1U_22JbxdI8qNZOddXv/view?usp=sharing" },
+            { key: "SSC CGL 2023 ENGLISH ALL", label: "SSC CGL 2023 ENGLISH MATHS ALL", link: "https://drive.google.com/file/d/142pNPh-1_gS2_4TTGl7cJK8k7ZmMdSTv/view?usp=sharing" },
+            { key: "SSC CGL 2023 REASONING ALL", label: "SSC CGL 2023 REASONING ALL", link: "https://drive.google.com/file/d/1Q4onFNbbb1fMqAjsWl1XyBnkBQuWZAcS/view?usp=sharing" },
+            { key: "SSC CGL 2023 GK/GS ENGLISH ALL TOPIC WISE", label: "SSC CGL 2023 GK/GS ENGLISH ALL TOPIC WISE", link: "https://drive.google.com/file/d/1WH5VVCqJRg7bSxw8XvSamEOuZrKgJB-5/view?usp=sharing" },
+            { key: "SSC CGL 2023 GK/GS HINDI ALL TOPIC WISE", label: "SSC CGL 2023 GK/GS HINDI ALL TOPIC WISE", link: "https://drive.google.com/file/d/1NObNixWuYaWMWeFdYpIOEb6lwNC94v8Q/view?usp=sharing" },
+            { key: "2019", label: "2019", link: "" },
+            { key: "2018", label: "2018", link: "" },
+        ],
+    },
+    {
+        countryKey: 'JPSC 2019',
+        countryName: 'JPSC 2019',
+        states: [
+            { key: "SSC CGL TIRE 1 2022", label: "SSC CGL TIRE 1 2022", link: "https://www.dropbox.com/scl/fi/ztzoqelva0wq7qnq3grry/SSC-CGL-2022-T-1-40-SETS-ENGLISH.pdf?rlkey=p0i9gdmv41xytpjuoiym04jrd&st=n2hjpzdg&dl=0" },
+            { key: "SSC CGL 2023", label: "SSC CGL 2023", link: "https://drive.google.com/file/d/1HMhbtPsPEaaYHx71TEctRBhQDSXsMc9o/view?usp=sharing" },
+            { key: "SSC CGL 2023 MATHS ALL TOPIC WISE", label: "SSC CGL 2024 MATHS ALL TOPIC WISE", link: "https://drive.google.com/file/d/15BAEXxrsB7sje1U_22JbxdI8qNZOddXv/view?usp=sharing" },
+            { key: "SSC CGL 2023 ENGLISH ALL", label: "SSC CGL 2023 ENGLISH MATHS ALL", link: "https://drive.google.com/file/d/142pNPh-1_gS2_4TTGl7cJK8k7ZmMdSTv/view?usp=sharing" },
+            { key: "SSC CGL 2023 REASONING ALL", label: "SSC CGL 2023 REASONING ALL", link: "https://drive.google.com/file/d/1Q4onFNbbb1fMqAjsWl1XyBnkBQuWZAcS/view?usp=sharing" },
+            { key: "SSC CGL 2023 GK/GS ENGLISH ALL TOPIC WISE", label: "SSC CGL 2023 GK/GS ENGLISH ALL TOPIC WISE", link: "https://drive.google.com/file/d/1WH5VVCqJRg7bSxw8XvSamEOuZrKgJB-5/view?usp=sharing" },
+            { key: "SSC CGL 2023 GK/GS HINDI ALL TOPIC WISE", label: "SSC CGL 2023 GK/GS HINDI ALL TOPIC WISE", link: "https://drive.google.com/file/d/1NObNixWuYaWMWeFdYpIOEb6lwNC94v8Q/view?usp=sharing" },
+            { key: "2019", label: "2019", link: "" },
+            { key: "2018", label: "2018", link: "" },
+        ],
+    },
+    {
+        countryKey: 'JPSC 2018',
+        countryName: 'JPSC 2018',
+        states: [
+            { key: "SSC CHSL TIRE 2 2023", label: "SSC CHSL TIRE 2 2023", link: "https://drive.google.com/file/d/1T9C0uZzaw-aiAfZA62u_1noRS4LcfXix/view?usp=drive_link" },
+            { key: "SSC CGL 2023", label: "SSC CGL 2023", link: "https://drive.google.com/file/d/1HMhbtPsPEaaYHx71TEctRBhQDSXsMc9o/view?usp=sharing" },
+            { key: "SSC CGL 2023 MATHS ALL TOPIC WISE", label: "SSC CGL 2024 MATHS ALL TOPIC WISE", link: "https://drive.google.com/file/d/15BAEXxrsB7sje1U_22JbxdI8qNZOddXv/view?usp=sharing" },
+            { key: "SSC CGL 2023 ENGLISH ALL", label: "SSC CGL 2023 ENGLISH MATHS ALL", link: "https://drive.google.com/file/d/142pNPh-1_gS2_4TTGl7cJK8k7ZmMdSTv/view?usp=sharing" },
+            { key: "SSC CGL 2023 REASONING ALL", label: "SSC CGL 2023 REASONING ALL", link: "https://drive.google.com/file/d/1Q4onFNbbb1fMqAjsWl1XyBnkBQuWZAcS/view?usp=sharing" },
+            { key: "SSC CGL 2023 GK/GS ENGLISH ALL TOPIC WISE", label: "SSC CGL 2023 GK/GS ENGLISH ALL TOPIC WISE", link: "https://drive.google.com/file/d/1WH5VVCqJRg7bSxw8XvSamEOuZrKgJB-5/view?usp=sharing" },
+            { key: "SSC CGL 2023 GK/GS HINDI ALL TOPIC WISE", label: "SSC CGL 2023 GK/GS HINDI ALL TOPIC WISE", link: "https://drive.google.com/file/d/1NObNixWuYaWMWeFdYpIOEb6lwNC94v8Q/view?usp=sharing" },
+            { key: "2019", label: "2019", link: "" },
+            { key: "2018", label: "2018", link: "" },
+        ],
+    },
+    {
+        countryKey: 'JPSC 2017',
+        countryName: 'JPSC 2017',
+        states: [
+            { key: "SSC CHSL TIRE 2 2023", label: "SSC CHSL TIRE 2 2023", link: "https://drive.google.com/file/d/1T9C0uZzaw-aiAfZA62u_1noRS4LcfXix/view?usp=drive_link" },
+            { key: "SSC CGL 2023", label: "SSC CGL 2023", link: "https://drive.google.com/file/d/1HMhbtPsPEaaYHx71TEctRBhQDSXsMc9o/view?usp=sharing" },
+            { key: "SSC CGL 2023 MATHS ALL TOPIC WISE", label: "SSC CGL 2024 MATHS ALL TOPIC WISE", link: "https://drive.google.com/file/d/15BAEXxrsB7sje1U_22JbxdI8qNZOddXv/view?usp=sharing" },
+            { key: "SSC CGL 2023 ENGLISH ALL", label: "SSC CGL 2023 ENGLISH MATHS ALL", link: "https://drive.google.com/file/d/142pNPh-1_gS2_4TTGl7cJK8k7ZmMdSTv/view?usp=sharing" },
+            { key: "SSC CGL 2023 REASONING ALL", label: "SSC CGL 2023 REASONING ALL", link: "https://drive.google.com/file/d/1Q4onFNbbb1fMqAjsWl1XyBnkBQuWZAcS/view?usp=sharing" },
+            { key: "SSC CGL 2023 GK/GS ENGLISH ALL TOPIC WISE", label: "SSC CGL 2023 GK/GS ENGLISH ALL TOPIC WISE", link: "https://drive.google.com/file/d/1WH5VVCqJRg7bSxw8XvSamEOuZrKgJB-5/view?usp=sharing" },
+            { key: "SSC CGL 2023 GK/GS HINDI ALL TOPIC WISE", label: "SSC CGL 2023 GK/GS HINDI ALL TOPIC WISE", link: "https://drive.google.com/file/d/1NObNixWuYaWMWeFdYpIOEb6lwNC94v8Q/view?usp=sharing" },
+            { key: "2019", label: "2019", link: "" },
+            { key: "2018", label: "2018", link: "" },
+        ],
+    },
+    {
+        countryKey: 'JPSC 2016',
+        countryName: 'JPSC 2016',
+        states: [
+            { key: "SSC CHSL TIRE 2 2023", label: "SSC CHSL TIRE 2 2023", link: "https://drive.google.com/file/d/1T9C0uZzaw-aiAfZA62u_1noRS4LcfXix/view?usp=drive_link" },
+            { key: "SSC CGL 2023", label: "SSC CGL 2023", link: "https://drive.google.com/file/d/1HMhbtPsPEaaYHx71TEctRBhQDSXsMc9o/view?usp=sharing" },
+            { key: "SSC CGL 2023 MATHS ALL TOPIC WISE", label: "SSC CGL 2024 MATHS ALL TOPIC WISE", link: "https://drive.google.com/file/d/15BAEXxrsB7sje1U_22JbxdI8qNZOddXv/view?usp=sharing" },
+            { key: "SSC CGL 2023 ENGLISH ALL", label: "SSC CGL 2023 ENGLISH MATHS ALL", link: "https://drive.google.com/file/d/142pNPh-1_gS2_4TTGl7cJK8k7ZmMdSTv/view?usp=sharing" },
+            { key: "SSC CGL 2023 REASONING ALL", label: "SSC CGL 2023 REASONING ALL", link: "https://drive.google.com/file/d/1Q4onFNbbb1fMqAjsWl1XyBnkBQuWZAcS/view?usp=sharing" },
+            { key: "SSC CGL 2023 GK/GS ENGLISH ALL TOPIC WISE", label: "SSC CGL 2023 GK/GS ENGLISH ALL TOPIC WISE", link: "https://drive.google.com/file/d/1WH5VVCqJRg7bSxw8XvSamEOuZrKgJB-5/view?usp=sharing" },
+            { key: "SSC CGL 2023 GK/GS HINDI ALL TOPIC WISE", label: "SSC CGL 2023 GK/GS HINDI ALL TOPIC WISE", link: "https://drive.google.com/file/d/1NObNixWuYaWMWeFdYpIOEb6lwNC94v8Q/view?usp=sharing" },
+            { key: "2019", label: "2019", link: "" },
+            { key: "2018", label: "2018", link: "" },
+        ],
+    }
+];
+
+
+
