@@ -490,6 +490,32 @@ export default function MyHome() {
                         API.
                       </p>
                     </Link>
+                    <Link
+                      href={"english-gallery/blackbook"}
+                      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                      rel="noopener noreferrer"
+                    >
+                      <h2 className="mb-3 text-2xl font-semibold">
+                        <p className="text-blue-600">English Vocab BlackBook</p>
+                      </h2>
+                      <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        Find in-depth information about Next.js features and
+                        API.
+                      </p>
+                    </Link>
+                    <Link
+                      href={"english-gallery/phrasal-verb"}
+                      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                      rel="noopener noreferrer"
+                    >
+                      <h2 className="mb-3 text-2xl font-semibold">
+                        <p className="text-blue-600">Phrasal Verb</p>
+                      </h2>
+                      <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        Find in-depth information about Next.js features and
+                        API.
+                      </p>
+                    </Link>
 
 
 
