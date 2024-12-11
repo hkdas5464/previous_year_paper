@@ -89,11 +89,11 @@ function SSCCGL() {
           <Tab key="profit" title="Profit & Loss">
             <div className="gap-2 grid grid-cols-2 sm:grid-cols-2">
 
-              {Profit_loss.map((e) => (
-                <Card className="">
+              {Profit_loss.map((e,index) => (
+                <Card className="" key={index}>
                   <CardHeader className="">
                   </CardHeader>
-                  <CardBody className="">
+                  <CardBody className="" >
                     <iframe height="634" src={"https://www.youtube.com/embed/"+e} title="Super - Duper Method 👑🔥 Dishonest Shopkeeper by Aditya Ranjan Sir Maths #shorts #ssc #mathstrick" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
                     </iframe>
                   </CardBody>
