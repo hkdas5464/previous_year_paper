@@ -33,7 +33,7 @@ useEffect(() => {
          {data.map((e)=>(
             <div>
                <Accordion selectionMode="multiple" >
-                    <AccordionItem key="1" aria-label="Accordion 1" title={e.word}>
+                    <AccordionItem key={e.word} aria-label="Accordion 1" title={e.word}>
                         {e.meaning}
                     </AccordionItem>
                 </Accordion>

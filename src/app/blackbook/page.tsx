@@ -16,7 +16,7 @@ function SSCCPO() {
     <BackgroundLines>
     <div className="max-w-4xl mx-auto pb-40">
       <p className="text-2xl mt-20 md:text-4xl mb-5 lg:text-7xl font-bold inter-var text-center">
-        SSC CHSL
+        BLACKBOOK VOCAB
       </p>
       
       <AccordionAPP/>
