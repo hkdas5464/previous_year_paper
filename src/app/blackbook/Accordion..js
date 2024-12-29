@@ -31,7 +31,7 @@ useEffect(() => {
     return (
         <div>
          {data.map((e)=>(
-            <div>
+            <div key={Math.random}>
                <Accordion selectionMode="multiple" >
                     <AccordionItem key={e.word} aria-label="Accordion 1" title={e.word}>
                         {e.meaning}
