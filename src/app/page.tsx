@@ -538,10 +538,7 @@ export default function MyHome() {
                       <h2 className="mb-3 text-2xl font-semibold">
                         <p className="text-blue-600">English Vocab</p>
                       </h2>
-                      <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                        Find in-depth information about Next.js features and
-                        API.
-                      </p>
+                    
                     </Link>
                     <Link
                       href={"english-gallery/blackbook"}
@@ -551,10 +548,7 @@ export default function MyHome() {
                       <h2 className="mb-3 text-2xl font-semibold">
                         <p className="text-blue-600">English Vocab BlackBook</p>
                       </h2>
-                      <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                        Find in-depth information about Next.js features and
-                        API.
-                      </p>
+                  
                     </Link>
                     <Link
                       href={"english-gallery/phrasal-verb"}
@@ -564,10 +558,7 @@ export default function MyHome() {
                       <h2 className="mb-3 text-2xl font-semibold">
                         <p className="text-blue-600">Phrasal Verb</p>
                       </h2>
-                      <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                        Find in-depth information about Next.js features and
-                        API.
-                      </p>
+                    
                     </Link>
 
                     <Link
@@ -578,10 +569,7 @@ export default function MyHome() {
                       <h2 className="mb-3 text-2xl font-semibold">
                         <p className="text-blue-600">BLACKBOOK A to Z</p>
                       </h2>
-                      <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                        Find in-depth information about Next.js features and
-                        API.
-                      </p>
+                    
                     </Link>
 
 

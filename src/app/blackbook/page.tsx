@@ -5,13 +5,11 @@ import {Tabs, Tab, Card, CardBody} from "@nextui-org/react";
 import  {CurrentAffairs, EnglishData, Mathsdata, Reasoning}  from "./data";
 import { AccordionAPP } from './Accordion.';
 import { BackgroundLines } from './lib/background-lines';
-import { BackgroundBeamsWithCollision } from './lib/background-beams-with-collision';
 
 
 
 function SSCCPO() {
   return (
-    <BackgroundBeamsWithCollision>
 
     <BackgroundLines>
     <div className="max-w-4xl mx-auto pb-40">
@@ -22,7 +20,6 @@ function SSCCPO() {
       <AccordionAPP/>
       </div>
       </BackgroundLines>
-      </BackgroundBeamsWithCollision>
   )
 }
 
