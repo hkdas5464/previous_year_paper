@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import { Accordion, AccordionItem } from "@nextui-org/react";
-
+import { WORDS } from "./data";
 export const AccordionAPP = () => {
 
     const defaultContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
@@ -30,8 +30,9 @@ useEffect(() => {
 
     return (
         <div>
-         {data.map((e)=>(
+         {WORDS.map((e,index)=>(
             <div key={Math.random}>
+              <p>{index}</p>
                <Accordion selectionMode="multiple" >
                     <AccordionItem key={e.word} aria-label="Accordion 1" title={e.word}>
                         {e.meaning}
