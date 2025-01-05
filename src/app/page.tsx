@@ -1,8 +1,10 @@
 "use client";
 import Image from "next/image";
+import NextNav from "./Nextnav";
 import Link from "next/link";
 import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
 import { ThemeSwitcher } from "@/components/ui/ThemeSwitcher";
+import MyNavbar from "./Navbar";
 
 // import MyNavbar from "./Navbar";
 import { cn } from "@/utils/cn";
@@ -15,12 +17,14 @@ import { BookAIcon } from "lucide-react";
 
 export default function MyHome() {
   return (
+    <>
+    <NextNav/>
     <main className="flex min-h-screen flex-col items-center justify-between p-20">
       <Spotlight />
       <div className="flex w-full flex-col">
         <div className="z-10 w-full max-w-6xl items-center justify-between font-mono text-sm lg:flex">
           <p>
-            {/* <code className="font-mono font-bold">src/app/page.tsx</code> */}
+          {/* <ThemeSwitcher /> */}
           </p>
           <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
             <a
@@ -29,8 +33,10 @@ export default function MyHome() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              By <p className="text-blue-600">Harendra Kumar</p>
+              By <p className="text-blue-600">  Harendra Kumar</p>
             </a>
+                      {/* <ThemeSwitcher /> */}
+            
           </div>
         </div>
         <div>
@@ -620,5 +626,6 @@ export default function MyHome() {
         </div>
       </div>
     </main>
+    </>
   );
 }

@@ -22,7 +22,7 @@ export default function RootLayout({
     <head />
     
     <body className="z-0">
-      <ThemeProvider><MyNavbar/></ThemeProvider>
+      {/* <ThemeProvider><MyNavbar/></ThemeProvider> */}
       <ThemeProvider>{children}</ThemeProvider>
     </body>
   </html>

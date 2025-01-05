@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/pages/_app.js", "src/components/YouTubeVideo.js", "src/app/parmar/Cards.jsx", "src/app/videos/youtube/layout/Navbar.js", "src/app/blackbook/Accordion..js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/pages/_app.js", "src/components/YouTubeVideo.js", "src/app/parmar/Cards.jsx", "src/app/videos/youtube/layout/Navbar.js", "src/app/blackbook/Accordion..js", "src/app/videos/economics/layout.jsx", "src/app/videos/economics/page.jsx"],
   "exclude": ["node_modules"]
 }
