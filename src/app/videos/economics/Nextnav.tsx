@@ -1,6 +1,6 @@
 import { ThemeSwitcher } from "@/components/ui/ThemeSwitcher";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button } from "@nextui-org/react";
-import mediaJson from "../data/mediaJson.json";
+import mediaJson from "./data/mediaJson.json";
 export const AcmeLogo = () => {
   return (
     <svg fill="none" height="36" viewBox="0 0 32 32" width="36">
