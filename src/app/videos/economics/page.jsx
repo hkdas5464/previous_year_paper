@@ -27,7 +27,7 @@ export default function PlaylistScreen() {
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
+          allowFullScreen="true"
         ></iframe>
         {/* Video Description */}
         <div className="mt-4 p-4 rounded-lg">
