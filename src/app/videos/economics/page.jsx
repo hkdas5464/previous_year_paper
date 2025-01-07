@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import mediaJson from './data/mediaJson.json'
 import NextNav from "./Nextnav";
+import Link from "next/link";
 // JSON Playlist Data
 
 export default function PlaylistScreen() {
@@ -32,7 +33,7 @@ export default function PlaylistScreen() {
         {/* Video Description */}
         <div className="mt-4 p-4 rounded-lg">
           <h2 className="text-lg font-bold">{currentVideo.title}</h2>
-          <p className="mt-2">{"No description available"}</p>
+          <p className="mt-2">PDF:<a href={currentVideo.description}>{currentVideo.description || "No description available"}</a></p>
         </div>
       </div>
 
