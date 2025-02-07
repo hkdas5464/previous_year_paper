@@ -43,7 +43,7 @@ const Home: React.FC = () => {
                   value={word.id}
                   title={
                     <div style={{ display: 'flex', alignItems: 'center' }}>
-                      <p className=' text-red-700'>{word.id }&nbsp;</p>
+                      <p className=' text-red-700'>{word.id}&nbsp;</p>
                       <Checkbox
                         color="success"
                         isSelected={!!checkedItems[word.id]}
@@ -52,11 +52,11 @@ const Home: React.FC = () => {
                           handleCheckboxChange(word.id, newValue)
                         }
                       ><span style={{ marginLeft: '8px' }}>{word.word}</span></Checkbox>
-                      
+
                     </div>
                   }
                 >
-                 <div>
+                  <div>
                     <p className=' text-blue-700'><strong className=' text-green-600'>English:</strong> {word.eng}</p>
                     <p className=' text-blue-700'><strong className=' text-green-600'>Hindi Meaning:</strong> {word.meaning}</p>
                   </div>
