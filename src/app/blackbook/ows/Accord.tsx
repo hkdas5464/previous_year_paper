@@ -43,6 +43,7 @@ const Home: React.FC = () => {
                   value={word.id}
                   title={
                     <div style={{ display: 'flex', alignItems: 'center' }}>
+                      <p className=' text-red-700'>{word.id }&nbsp;</p>
                       <Checkbox
                         color="success"
                         isSelected={!!checkedItems[word.id]}
