@@ -55,9 +55,9 @@ const Home: React.FC = () => {
                     </div>
                   }
                 >
-                 <div>
-                    <p className=' text-blue-700'><strong className=' text-green-600'>English:</strong> {word.eng}</p>
-                    <p className=' text-blue-700'><strong className=' text-green-600'>Hindi Meaning:</strong> {word.meaning}</p>
+                  <div>
+                    <p><strong>English:</strong> {word.eng}</p>
+                    <p><strong>Meaning:</strong> {word.meaning}</p>
                   </div>
                 </AccordionItem>
               ))}

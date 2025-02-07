@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Accordion, AccordionItem, Image } from "@nextui-org/react";
 import { Checkbox } from "@nextui-org/checkbox";
 
-import { groups } from './data';
+import { groups } from './data2';
 
 
 
@@ -19,7 +19,7 @@ const Home: React.FC = () => {
   }, []);
 
   // Update state and localStorage when a checkbox is toggled
-  const handleCheckboxChange = (id: string, newValue: boolean) => {
+  const handleCheckboxChange = (id: number, newValue: boolean) => {
     const updatedCheckedItems = { ...checkedItems, [id]: newValue };
     setCheckedItems(updatedCheckedItems);
     localStorage.setItem('checkedItems', JSON.stringify(updatedCheckedItems));
@@ -37,12 +37,13 @@ const Home: React.FC = () => {
           >
             {/* Inner Accordion for words in each group */}
             <Accordion>
-              {group.words.map(word => (
+              {group.words.map((word,index) => (
                 <AccordionItem
                   key={word.id}
                   value={word.id}
                   title={
                     <div style={{ display: 'flex', alignItems: 'center' }}>
+                      <p className=' text-red-700'>{word.id}&nbsp;</p>
                       <Checkbox
                         color="success"
                         isSelected={!!checkedItems[word.id]}
@@ -55,7 +56,7 @@ const Home: React.FC = () => {
                     </div>
                   }
                 >
-                 <div>
+                  <div>
                     <p className=' text-blue-700'><strong className=' text-green-600'>English:</strong> {word.eng}</p>
                     <p className=' text-blue-700'><strong className=' text-green-600'>Hindi Meaning:</strong> {word.meaning}</p>
                   </div>

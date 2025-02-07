@@ -1,8 +1,11 @@
 "use client";
 import React from 'react'
+import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
 
-import {Button, Image } from "@nextui-org/react";
+
+import { Button, Image } from "@nextui-org/react";
 import Accord from './Accord';
+import Accordidioms from './Accordidioms';
 
 import Link from 'next/link';
 
@@ -26,6 +29,9 @@ function SSCOWS() {
         </div>
       </header>
       <main>
+
+
+
         <div className="flex items-center justify-center mt-20">
           <Image
 
@@ -34,15 +40,45 @@ function SSCOWS() {
 
             style={{ objectFit: 'cover', zIndex: 0 }} />
         </div>
-        <div className="max-w-4xl mx-auto pb-40">
-          <p className="text-2xl mt-20 md:text-4xl mb-5 lg:text-7xl font-bold inter-var text-center">
-            <u>VOCAB OWS</u>
-          </p>
-          <Accord />
-          <div className='items-center'>
 
-          </div>
+        <div className="flex w-full flex-col justify-center mt-20">
+          <Tabs aria-label="Options" color={'success'} className='items-center justify-center'  >
+            <Tab key="photos" title="OWS">
+              <div className="max-w-4xl mx-auto pb-40">
+                <p className="text-2xl  md:text-4xl mb-5 lg:text-7xl font-bold inter-var text-center">
+                  <u>VOCAB OWS</u>
+                </p>
+                <Accord />
+                <div className='items-center'>
+
+                </div>
+              </div>
+            </Tab>
+            <Tab key="music" title="IDIOMS">
+              <div className="max-w-4xl mx-auto pb-40">
+                <p className="text-2xl  md:text-4xl mb-5 lg:text-7xl font-bold inter-var text-center">
+                  <u>IDIOMS</u>
+                </p>
+                <Accordidioms />
+                <div className='items-center'>
+
+                </div>
+              </div>
+            </Tab>
+            <Tab key="videos" title="SYNONYMS">
+              <div className="max-w-4xl mx-auto pb-40">
+                <p className="text-2xl  md:text-4xl mb-5 lg:text-7xl font-bold inter-var text-center">
+                  <u>SYNONYMS</u>
+                </p>
+                <Accord />
+                <div className='items-center'>
+
+                </div>
+              </div>
+            </Tab>
+          </Tabs>
         </div>
+
       </main>
 
     </>
