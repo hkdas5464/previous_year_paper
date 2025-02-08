@@ -2,63 +2,63 @@ import React, { useState, useEffect } from 'react';
 import { Accordion, AccordionItem, Image } from "@nextui-org/react";
 import { Checkbox } from "@nextui-org/checkbox";
 
-import { groups } from './data2';
+import { dances, groups } from './data';
 
 
 
 const Home: React.FC = () => {
   // State to track checkbox selections (keyed by word id)
-  const [checkedItems, setCheckedItems] = useState<Record<string, boolean>>({});
+  const [checkedclassicalDances, setcheckedclassicalDances] = useState<Record<string, boolean>>({});
 
   // Load saved checkbox state from localStorage on mount
   useEffect(() => {
-    const saved = localStorage.getItem('checkedItems');
+    const saved = localStorage.getItem('checkedclassicalDances');
     if (saved) {
-      setCheckedItems(JSON.parse(saved));
+      setcheckedclassicalDances(JSON.parse(saved));
     }
   }, []);
 
   // Update state and localStorage when a checkbox is toggled
-  const handleCheckboxChange = (id: number, newValue: boolean) => {
-    const updatedCheckedItems = { ...checkedItems, [id]: newValue };
-    setCheckedItems(updatedCheckedItems);
-    localStorage.setItem('checkedItems', JSON.stringify(updatedCheckedItems));
+  const handleCheckboxChange = (id: string, newValue: boolean) => {
+    const updatedcheckedclassicalDances = { ...checkedclassicalDances, [id]: newValue };
+    setcheckedclassicalDances(updatedcheckedclassicalDances);
+    localStorage.setItem('checkedclassicalDances', JSON.stringify(updatedcheckedclassicalDances));
   };
 
   return (
     <div style={{ padding: '20px' }}>
       {/* Outer Accordion in "splitted" variant for groups */}
       <Accordion variant="splitted" className=' text-red-500'>
-        {groups.map(group => (
+        {dances.map((group,index) => (
           <AccordionItem
-            key={group.title}
-            value={group.title}
-            title={<span className="text-blue-700 font-bold">{group.title}</span>}
+            key={group.danceName}
+            value={group.danceName}
+            title={<span className="text-blue-700 font-bold"><a className=' text-red-700'>{index+1} )</a> {group.danceName}</span>}
           >
             {/* Inner Accordion for words in each group */}
             <Accordion>
-              {group.words.map((word,index) => (
+              {group.exponents.map((word,index) => (
                 <AccordionItem
-                  key={word.newid}
-                  value={word.newid}
+                  key={word.id}
+                  value={word.id}
                   title={
                     <div style={{ display: 'flex', alignItems: 'center' }}>
-                      <p className=' text-red-700'>{word.id - 1000 }&nbsp;</p>
+                      <p className=' text-red-700'>{index+1}&nbsp;</p>
                       <Checkbox
                         color="success"
-                        isSelected={!!checkedItems[word.newid]}
+                        isSelected={!!checkedclassicalDances[word.id]}
                         lineThrough
                         onValueChange={(newValue: boolean) =>
-                          handleCheckboxChange(word.newid, newValue)
+                          handleCheckboxChange(word.id, newValue)
                         }
-                      ><span style={{ marginLeft: '8px' }}>{word.word}</span></Checkbox>
-                      
+                      ><span style={{ marginLeft: '8px' }}>{word.name}</span></Checkbox>
+
                     </div>
                   }
                 >
                   <div>
-                    <p className=' text-blue-700'><strong className=' text-green-600'>English:</strong> {word.eng}</p>
-                    <p className=' text-blue-700'><strong className=' text-green-600'>Hindi Meaning:</strong> {word.meaning}</p>
+                    <p className=' text-blue-700'><strong className=' text-green-600'>English:</strong> {word.achievements}</p>
+                    <p className=' text-blue-700'><strong className=' text-green-600'>Hindi Meaning:</strong> {word.nameinhindi}</p>
                   </div>
                 </AccordionItem>
               ))}

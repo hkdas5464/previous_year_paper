@@ -64,7 +64,7 @@ export default function MyHome() {
   <CardBody>
     <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-6xl lg:grid-cols-5 lg:text-left">
       <Link
-        href={"blackbook/ows"}
+        href={"learning/ows"}
         className="group rounded-lg border  border-transparent px-5 py-4 transition-colors hover:text-blue-900 hover:border-blue-600 hover:bg-white hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         rel="noopener noreferrer"
       >
