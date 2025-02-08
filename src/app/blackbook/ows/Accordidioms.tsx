@@ -39,17 +39,17 @@ const Home: React.FC = () => {
             <Accordion>
               {group.words.map((word,index) => (
                 <AccordionItem
-                  key={word.id}
-                  value={word.id}
+                  key={word.newid}
+                  value={word.newid}
                   title={
                     <div style={{ display: 'flex', alignItems: 'center' }}>
                       <p className=' text-red-700'>{word.id - 1000 }&nbsp;</p>
                       <Checkbox
                         color="success"
-                        isSelected={!!checkedItems[word.id]}
+                        isSelected={!!checkedItems[word.newid]}
                         lineThrough
                         onValueChange={(newValue: boolean) =>
-                          handleCheckboxChange(word.id, newValue)
+                          handleCheckboxChange(word.newid, newValue)
                         }
                       ><span style={{ marginLeft: '8px' }}>{word.word}</span></Checkbox>
                       
