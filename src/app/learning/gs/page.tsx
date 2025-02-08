@@ -43,7 +43,7 @@ function SSCOWS() {
 
         <div className="flex w-full flex-col justify-center mt-20">
           <Tabs aria-label="Options" color={'success'} className='items-center justify-center'  >
-            <Tab key="photos" title="Classical Dance">
+            <Tab key="CLASSICAL" title="Classical Dance">
               <div className="max-w-4xl mx-auto pb-40">
                 <p className="text-2xl  md:text-4xl mb-5 lg:text-7xl font-bold inter-var text-center">
                   <u>CLASSICAL DANCES</u>
@@ -54,7 +54,7 @@ function SSCOWS() {
                 </div>
               </div>
             </Tab>
-            <Tab key="music" title="MUSICAL INSTRULENTS">
+            <Tab key="NATIONALPARK" title="NATIONALPARK">
               <div className="max-w-4xl mx-auto pb-40">
                 <p className="text-2xl  md:text-4xl mb-5 lg:text-7xl font-bold inter-var text-center">
                   <u>NATIONALPARK</u>
