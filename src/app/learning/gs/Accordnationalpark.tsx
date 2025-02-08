@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Accordion, AccordionItem, Image } from "@nextui-org/react";
 import { Checkbox } from "@nextui-org/checkbox";
 
-import { groups,nationalpark } from './data2';
+import { groups, nationalpark } from './data2';
+import { animals } from '@/app/books/data';
 
 
 
@@ -37,13 +38,13 @@ const Home: React.FC = () => {
           >
             {/* Inner Accordion for words in each group */}
             <Accordion>
-              {group.national_parks.map((word,index) => (
+              {group.national_parks.map((word, index) => (
                 <AccordionItem
                   key={word.id}
                   value={word.id}
                   title={
                     <div style={{ display: 'flex', alignItems: 'center' }}>
-                      <p className=' text-red-700'>{index+1 }&nbsp;</p>
+                      <p className=' text-red-700'>{index + 1}&nbsp;</p>
                       <Checkbox
                         color="success"
                         isSelected={!!checkedIdioms[word.id]}
@@ -52,12 +53,30 @@ const Home: React.FC = () => {
                           handleCheckboxChange(word.id, newValue)
                         }
                       ><span style={{ marginLeft: '8px' }}>{word.name}</span></Checkbox>
-                      
+
                     </div>
                   }
                 >
-                  <div>
-                    <p className=' text-blue-700'><strong className=' text-green-600'>Established:</strong> {word.established}</p>
+                  <div className="p-4">
+                    <h1 className="text-2xl font-bold mb-4">Famous Animals</h1>
+                    <ul className="list-disc pl-6">
+                      {word.famous_animals.map((animal, index) => (
+                        <li key={index} className="text-lg text-white">
+                          {animal}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <div className="p-4">
+                    <h1 className="text-2xl font-bold mb-4 text-green-600">Famous Plants</h1>
+                    <ul className="list-disc pl-6 text-white" >
+                      {word.famous_plants.map((plants, index) => (
+                        <li key={index} className="text-lg">
+                          {plants}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </AccordionItem>
               ))}

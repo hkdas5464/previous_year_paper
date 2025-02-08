@@ -11,6 +11,8 @@ interface national_parkss{
   id:string,
   name:string,
   established:number
+  famous_animals: string[];  
+  famous_plants:string[]
 }
 
 interface NationalParkData {
@@ -31,288 +33,925 @@ interface NationalParkGroup {
 }
 
 
-export const nationalpark: NationalParkGroup[] = [{
- 
-      "state": "Andaman & Nicobar Islands",
-      "national_parks": [
-        { "id": "ANP1", "name": "Campbell Bay National Park", "established": 1992 },
-        { "id": "ANP2", "name": "Galathea Bay National Park", "established": 1992 },
-        { "id": "ANP3", "name": "Mahatma Gandhi Marine National Park", "established": 1982 },
-        { "id": "ANP4", "name": "Middle Button Island National Park", "established": 1987 },
-        { "id": "ANP5", "name": "Mount Harriet National Park", "established": 1987 },
-        { "id": "ANP6", "name": "North Button Island National Park", "established": 1987 },
-        { "id": "ANP7", "name": "Rani Jhansi Marine National Park", "established": 1996 },
-        { "id": "ANP8", "name": "Saddle Peak National Park", "established": 1987 },
-        { "id": "ANP9", "name": "South Button Island National Park", "established": 1987 }
-      ]
-    },
-    {
-      "state": "Andhra Pradesh",
-      "national_parks": [
-        { "id": "AP1", "name": "Papikonda National Park", "established": 2008 },
-        { "id": "AP2", "name": "Rajiv Gandhi (Rameswaram) National Park", "established": 2005 },
-        { "id": "AP3", "name": "Sri Venkateswara National Park", "established": 1989 }
-      ]
-    },
-    {
-      "state": "Arunachal Pradesh",
-      "national_parks": [
-        { "id": "AR1", "name": "Mouling National Park", "established": 1986 },
-        { "id": "AR2", "name": "Namdapha National Park", "established": 1983 }
-      ]
-    },
-    {
-      "state": "Assam",
-      "national_parks": [
-        { "id": "AS1", "name": "Dibru-Saikhowa National Park", "established": 1999 },
-        { "id": "AS2", "name": "Kaziranga National Park", "established": 1974 },
-        { "id": "AS3", "name": "Manas National Park", "established": 1990 },
-        { "id": "AS4", "name": "Nameri National Park", "established": 1998 },
-        { "id": "AS5", "name": "Orang National Park", "established": 1999 },
-        { "id": "AS6", "name": "Dehing Patkai National Park", "established": 2021 },
-        { "id": "AS7", "name": "Raimona National Park", "established": 2021 }
-      ]
-    },
-    {
-      "state": "Bihar",
-      "national_parks": [
-        { "id": "BI1", "name": "Valmiki National Park", "established": 1989 }
-      ]
-    },
-    {
-      "state": "Chandigarh",
-      "national_parks": []
-    },
-    {
-      "state": "Chhattisgarh",
-      "national_parks": [
-        { "id": "CG1", "name": "Guru Ghasidas (Sanjay) National Park", "established": 1981 },
-        { "id": "CG2", "name": "Indravati (Kutru) National Park", "established": 1982 },
-        { "id": "CG3", "name": "Kanger Valley National Park", "established": 1982 }
-      ]
-    },
-    {
-      "state": "Dadra & Nagar Haveli and Daman and Diu",
-      "national_parks": []
-    },
-    {
-      "state": "Delhi",
-      "national_parks": []
-    },
-    {
-      "state": "Goa",
-      "national_parks": [
-        { "id": "GO1", "name": "Mollem National Park", "established": 1992 }
-      ]
-    },
-    {
-      "state": "Gujarat",
-      "national_parks": [
-        { "id": "GU1", "name": "Vansda National Park", "established": 1979 },
-        { "id": "GU2", "name": "Blackbuck (Velavadar) National Park", "established": 1976 },
-        { "id": "GU3", "name": "Gir National Park", "established": 1975 },
-        { "id": "GU4", "name": "Marine (Gulf of Kachchh) National Park", "established": 1982 }
-      ]
-    },
-    {
-      "state": "Haryana",
-      "national_parks": [
-        { "id": "HR1", "name": "Kalesar National Park", "established": 2003 },
-        { "id": "HR2", "name": "Sultanpur National Park", "established": 1989 }
-      ]
-    },
-    {
-      "state": "Himachal Pradesh",
-      "national_parks": [
-        { "id": "HP1", "name": "Great Himalayan National Park", "established": 1984 },
-        { "id": "HP2", "name": "Inderkilla National Park", "established": 2010 },
-        { "id": "HP3", "name": "Khirganga National Park", "established": 2010 },
-        { "id": "HP4", "name": "Pin Valley National Park", "established": 1987 },
-        { "id": "HP5", "name": "Simbalbara National Park", "established": 2010 }
-      ]
-    },
-    {
-      "state": "Jammu & Kashmir",
-      "national_parks": [
-        { "id": "JK1", "name": "City Forest (Salim Ali) National Park", "established": 1992 },
-        { "id": "JK2", "name": "Dachigam National Park", "established": 1981 },
-        { "id": "JK3", "name": "Kishtwar National Park", "established": 1981 },
-        { "id": "JK4", "name": "Kazinag National Park", "established": 2007 }
-      ]
-    },
-    {
-      "state": "Jharkhand",
-      "national_parks": [
-        { "id": "JH1", "name": "Betla National Park", "established": 1986 }
-      ]
-    },
-    {
-      "state": "Karnataka",
-      "national_parks": [
-        { "id": "KA1", "name": "Anshi National Park", "established": 1987 },
-        { "id": "KA2", "name": "Bandipur National Park", "established": 1974 },
-        { "id": "KA3", "name": "Bannerghatta National Park", "established": 1974 },
-        { "id": "KA4", "name": "Kudremukh National Park", "established": 1987 },
-        { "id": "KA5", "name": "Nagarahole (Rajiv Gandhi) National Park", "established": 1988 }
-      ]
-    },
-    {
-      "state": "Kerala",
-      "national_parks": [
-        { "id": "KL1", "name": "Anamudi Shola National Park", "established": 2003 },
-        { "id": "KL2", "name": "Eravikulam National Park", "established": 1978 },
-        { "id": "KL3", "name": "Mathikettan Shola National Park", "established": 2003 },
-        { "id": "KL4", "name": "Pambadum Shola National Park", "established": 2003 },
-        { "id": "KL5", "name": "Periyar National Park", "established": 1982 },
-        { "id": "KL6", "name": "Silent Valley National Park", "established": 1984 }
-      ]
-    },
-    {
-      "state": "Ladakh",
-      "national_parks": [
-        { "id": "LD1", "name": "Hemis National Park", "established": 1981 }
-      ]
-    },
-    {
-      "state": "Lakshadweep",
-      "national_parks": []
-    },
-    {
-      "state": "Madhya Pradesh",
-      "national_parks": [
-        { "id": "MP1", "name": "Bandhavgarh National Park", "established": 1968 },
-        { "id": "MP2", "name": "Fossil National Park", "established": 1983 },
-        { "id": "MP3", "name": "Indira Priyadarshini Pench National Park", "established": 1975 },
-        { "id": "MP4", "name": "Kanha National Park", "established": 1955 },
-        { "id": "MP5", "name": "Madhav National Park", "established": 1959 },
-        { "id": "MP6", "name": "Panna National Park", "established": 1981 },
-        { "id": "MP7", "name": "Sanjay National Park", "established": 1981 },
-        { "id": "MP8", "name": "Satpura National Park", "established": 1981 },
-        { "id": "MP9", "name": "Van Vihar National Park", "established": 1979 }
-      ]
-    },
-    {
-      "state": "Maharashtra",
-      "national_parks": [
-        { "id": "MH1", "name": "Chandoli National Park", "established": 2004 },
-        { "id": "MH2", "name": "Gugamal National Park", "established": 1975 },
-        { "id": "MH3", "name": "Nawegaon National Park", "established": 1975 },
-        { "id": "MH4", "name": "Pench (Jawaharlal Nehru) National Park", "established": 1975 },
-        { "id": "MH5", "name": "Sanjay Gandhi (Borivali) National Park", "established": 1983 },
-        { "id": "MH6", "name": "Tadoba National Park", "established": 1955 }
-      ]
-    },
-    {
-      "state": "Manipur",
-      "national_parks": [
-        { "id": "MN1", "name": "Keibul-Lamjao National Park", "established": 1977 }
-      ]
-    },
-    {
-      "state": "Meghalaya",
-      "national_parks": [
-        { "id": "MG1", "name": "Balphakram National Park", "established": 1985 },
-        { "id": "MG2", "name": "Nokrek National Park", "established": 1986 }
-      ]
-    },
-    {
-      "state": "Mizoram",
-      "national_parks": [
-        { "id": "MZ1", "name": "Murlen National Park", "established": 1991 },
-        { "id": "MZ2", "name": "Phawngpui Blue Mountain National Park", "established": 1992 }
-      ]
-    },
-    {
-      "state": "Nagaland",
-      "national_parks": [
-        { "id": "NG1", "name": "Intanki National Park", "established": 1993 }
-      ]
-    },
-    {
-      "state": "Odisha",
-      "national_parks": [
-        { "id": "OR1", "name": "Bhitarkanika National Park", "established": 1988 },
-        { "id": "OR2", "name": "Simlipal National Park", "established": 1980 }
-      ]
-    },
-    {
-      "state": "Puducherry",
-      "national_parks": []
-    },
-    {
-      "state": "Punjab",
-      "national_parks": []
-    },
-    {
-      "state": "Rajasthan",
-      "national_parks": [
-        { "id": "RJ1", "name": "Mukundra Hills National Park", "established": 2006 },
-        { "id": "RJ2", "name": "Desert National Park", "established": 1992 },
-        { "id": "RJ3", "name": "Keoladeo Ghana National Park", "established": 1981 },
-        { "id": "RJ4", "name": "Ranthambore National Park", "established": 1980 },
-        { "id": "RJ5", "name": "Sariska National Park", "established": 1992 }
-      ]
-    },
-    {
-      "state": "Sikkim",
-      "national_parks": [
-        { "id": "SK1", "name": "Khangchendzonga National Park", "established": 1977 }
-      ]
-    },
-    {
-      "state": "Tamil Nadu",
-      "national_parks": [
-        { "id": "TN1", "name": "Guindy National Park", "established": 1976 },
-        { "id": "TN2", "name": "Gulf of Mannar Marine National Park", "established": 1980 },
-        { "id": "TN3", "name": "Indira Gandhi (Annamalai) National Park", "established": 1989 },
-        { "id": "TN4", "name": "Mudumalai National Park", "established": 1990 },
-        { "id": "TN5", "name": "Mukurthi National Park", "established": 1990 }
-      ]
-    },
-    {
-      "state": "Telangana",
-      "national_parks": [
-        { "id": "TG1", "name": "Kasu Brahmananda Reddy National Park", "established": 1994 },
-        { "id": "TG2", "name": "Mahaveer Harina Vanasthali National Park", "established": 1994 },
-        { "id": "TG3", "name": "Mrugavani National Park", "established": 1994 }
-      ]
-    },
-    {
-      "state": "Tripura",
-      "national_parks": [
-        { "id": "TR1", "name": "Clouded Leopard National Park", "established": 2007 },
-        { "id": "TR2", "name": "Bison (Rajbari) National Park", "established": 2007 }
-      ]
-    },
-    {
-      "state": "Uttar Pradesh",
-      "national_parks": [
-        { "id": "UP1", "name": "Dudhwa National Park", "established": 1977 }
-      ]
-    },
-    {
-      "state": "Uttarakhand",
-      "national_parks": [
-        { "id": "UK1", "name": "Corbett National Park", "established": 1936 },
-        { "id": "UK2", "name": "Gangotri National Park", "established": 1989 },
-        { "id": "UK3", "name": "Govind National Park", "established": 1990 },
-        { "id": "UK4", "name": "Nanda Devi National Park", "established": 1982 },
-        { "id": "UK5", "name": "Rajaji National Park", "established": 1983 },
-        { "id": "UK6", "name": "Valley of Flowers National Park", "established": 1982 }
-      ]
-    },
-    {
-      "state": "West Bengal",
-      "national_parks": [
-        { "id": "WB1", "name": "Buxa National Park", "established": 1992 },
-        { "id": "WB2", "name": "Gorumara National Park", "established": 1992 },
-        { "id": "WB3", "name": "Jaldapara National Park", "established": 2014 },
-        { "id": "WB4", "name": "Neora Valley National Park", "established": 1986 },
-        { "id": "WB5", "name": "Singalila National Park", "established": 1986 },
-        { "id": "WB6", "name": "Sundarbans National Park", "established": 1984 }
-      ]
-    }
-  ]
+export const nationalpark: NationalParkGroup[] = [
+  {
+    "state": "Andaman & Nicobar Islands",
+    "national_parks": [
+      {
+        "id": "ANP1",
+        "name": "Campbell Bay National Park",
+        "established": 1992,
+        "famous_animals": ["Nicobar treeshrew", "Dugong", "Saltwater crocodile"],
+        "famous_plants": ["Mangrove species", "Tropical rainforest vegetation"]
+      },
+      {
+        "id": "ANP2",
+        "name": "Galathea Bay National Park",
+        "established": 1992,
+        "famous_animals": ["Nicobar pigeon", "Robber crab"],
+        "famous_plants": ["Coastal shrubs", "Coral-associated flora"]
+      },
+      {
+        "id": "ANP3",
+        "name": "Mahatma Gandhi Marine National Park",
+        "established": 1982,
+        "famous_animals": ["Sea turtles", "Dugongs", "Coral reef fish"],
+        "famous_plants": ["Corals", "Seagrasses", "Mangroves"]
+      },
+      {
+        "id": "ANP4",
+        "name": "Middle Button Island National Park",
+        "established": 1987,
+        "famous_animals": ["Migratory birds"],
+        "famous_plants": ["Coastal scrub vegetation"]
+      },
+      {
+        "id": "ANP5",
+        "name": "Mount Harriet National Park",
+        "established": 1987,
+        "famous_animals": ["Endemic bird species"],
+        "famous_plants": ["Subtropical forest flora"]
+      },
+      {
+        "id": "ANP6",
+        "name": "North Button Island National Park",
+        "established": 1987,
+        "famous_animals": ["Dugongs", "Dolphins"],
+        "famous_plants": ["Mangroves"]
+      },
+      {
+        "id": "ANP7",
+        "name": "Rani Jhansi Marine National Park",
+        "established": 1996,
+        "famous_animals": ["Marine turtles"],
+        "famous_plants": ["Coral communities", "Coastal vegetation"]
+      },
+      {
+        "id": "ANP8",
+        "name": "Saddle Peak National Park",
+        "established": 1987,
+        "famous_animals": ["Endemic mountain birds"],
+        "famous_plants": ["High-altitude wildflowers", "Mountain shrubs"]
+      },
+      {
+        "id": "ANP9",
+        "name": "South Button Island National Park",
+        "established": 1987,
+        "famous_animals": ["Coastal birds"],
+        "famous_plants": ["Seagrasses"]
+      }
+    ]
+  },
+  {
+    "state": "Andhra Pradesh",
+    "national_parks": [
+      {
+        "id": "AP1",
+        "name": "Papikonda National Park",
+        "established": 2008,
+        "famous_animals": ["Indian bison", "Tigers"],
+        "famous_plants": ["Dry deciduous trees", "Teak"]
+      },
+      {
+        "id": "AP2",
+        "name": "Rajiv Gandhi (Rameswaram) National Park",
+        "established": 2005,
+        "famous_animals": ["Marine life", "Sea turtles"],
+        "famous_plants": ["Mangrove vegetation", "Coastal flora"]
+      },
+      {
+        "id": "AP3",
+        "name": "Sri Venkateswara National Park",
+        "established": 1989,
+        "famous_animals": ["Leopards", "Sloth bears"],
+        "famous_plants": ["Sal and teak trees", "Eastern Ghats vegetation"]
+      }
+    ]
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "national_parks": [
+      {
+        "id": "AR1",
+        "name": "Mouling National Park",
+        "established": 1986,
+        "famous_animals": ["Red panda", "Clouded leopard", "Himalayan tahr"],
+        "famous_plants": ["Himalayan conifers", "Rhododendrons"]
+      },
+      {
+        "id": "AR2",
+        "name": "Namdapha National Park",
+        "established": 1983,
+        "famous_animals": ["Indian leopard", "Asian black bear", "Gaur"],
+        "famous_plants": ["Tropical rainforest species", "Bamboo groves"]
+      }
+    ]
+  },
+  {
+    "state": "Assam",
+    "national_parks": [
+      {
+        "id": "AS1",
+        "name": "Dibru-Saikhowa National Park",
+        "established": 1999,
+        "famous_animals": ["Wild water buffalo", "Feral horses", "Ganges river dolphin"],
+        "famous_plants": ["Swamp vegetation", "Sal forests"]
+      },
+      {
+        "id": "AS2",
+        "name": "Kaziranga National Park",
+        "established": 1974,
+        "famous_animals": ["Indian rhinoceros", "Tigers", "Elephants"],
+        "famous_plants": ["Bamboo", "Grasses"]
+      },
+      {
+        "id": "AS3",
+        "name": "Manas National Park",
+        "established": 1990,
+        "famous_animals": ["Bengal tigers", "Elephants", "Wild water buffalo"],
+        "famous_plants": ["Mixed deciduous forests"]
+      },
+      {
+        "id": "AS4",
+        "name": "Nameri National Park",
+        "established": 1998,
+        "famous_animals": ["Clouded leopard", "Elephants", "Golden langur"],
+        "famous_plants": ["Semi-evergreen forests"]
+      },
+      {
+        "id": "AS5",
+        "name": "Orang National Park",
+        "established": 1999,
+        "famous_animals": ["Indian rhinoceros", "Tigers", "Wild water buffalo"],
+        "famous_plants": ["Riverine forests", "Grasslands"]
+      },
+      {
+        "id": "AS6",
+        "name": "Dehing Patkai National Park",
+        "established": 2021,
+        "famous_animals": ["Asian elephants", "Bengal tigers"],
+        "famous_plants": ["Tropical evergreen flora"]
+      },
+      {
+        "id": "AS7",
+        "name": "Raimona National Park",
+        "established": 2021,
+        "famous_animals": ["Golden langur", "Indian elephants"],
+        "famous_plants": ["Moist deciduous forests"]
+      }
+    ]
+  },
+  {
+    "state": "Bihar",
+    "national_parks": [
+      {
+        "id": "BI1",
+        "name": "Valmiki National Park",
+        "established": 1989,
+        "famous_animals": ["Bengal tigers", "Indian rhinoceros"],
+        "famous_plants": ["Sal forests", "Deciduous trees"]
+      }
+    ]
+  },
+  {
+    "state": "Chandigarh",
+    "national_parks": []
+  },
+  {
+    "state": "Chhattisgarh",
+    "national_parks": [
+      {
+        "id": "CG1",
+        "name": "Guru Ghasidas (Sanjay) National Park",
+        "established": 1981,
+        "famous_animals": ["Tigers", "Leopards", "Indian bison"],
+        "famous_plants": ["Dry deciduous trees", "Bamboo"]
+      },
+      {
+        "id": "CG2",
+        "name": "Indravati (Kutru) National Park",
+        "established": 1982,
+        "famous_animals": ["Wild water buffalo", "Elephants"],
+        "famous_plants": ["Mixed deciduous forests"]
+      },
+      {
+        "id": "CG3",
+        "name": "Kanger Valley National Park",
+        "established": 1982,
+        "famous_animals": ["Sloth bears", "Indian gaur"],
+        "famous_plants": ["Bamboo", "Teak forests"]
+      }
+    ]
+  },
+  {
+    "state": "Dadra & Nagar Haveli and Daman and Diu",
+    "national_parks": []
+  },
+  {
+    "state": "Delhi",
+    "national_parks": []
+  },
+  {
+    "state": "Goa",
+    "national_parks": [
+      {
+        "id": "GO1",
+        "name": "Mollem National Park",
+        "established": 1992,
+        "famous_animals": ["Leopards", "Civets", "Various birds"],
+        "famous_plants": ["Evergreen forests", "Semi-evergreen vegetation"]
+      }
+    ]
+  },
+  {
+    "state": "Gujarat",
+    "national_parks": [
+      {
+        "id": "GU1",
+        "name": "Vansda National Park",
+        "established": 1979,
+        "famous_animals": ["Leopards", "Sloth bears", "Wild boar"],
+        "famous_plants": ["Dry deciduous forests", "Scrub vegetation"]
+      },
+      {
+        "id": "GU2",
+        "name": "Blackbuck (Velavadar) National Park",
+        "established": 1976,
+        "famous_animals": ["Blackbucks"],
+        "famous_plants": ["Grassland species", "Scrub vegetation"]
+      },
+      {
+        "id": "GU3",
+        "name": "Gir National Park",
+        "established": 1975,
+        "famous_animals": ["Asiatic lions"],
+        "famous_plants": ["Dry deciduous trees", "Acacia species"]
+      },
+      {
+        "id": "GU4",
+        "name": "Marine (Gulf of Kachchh) National Park",
+        "established": 1982,
+        "famous_animals": ["Sea turtles", "Dugongs", "Humpback dolphins"],
+        "famous_plants": ["Corals", "Mangroves", "Seagrasses"]
+      }
+    ]
+  },
+  {
+    "state": "Haryana",
+    "national_parks": [
+      {
+        "id": "HR1",
+        "name": "Kalesar National Park",
+        "established": 2003,
+        "famous_animals": ["Leopards", "Elephants"],
+        "famous_plants": ["Sal trees", "Khair"]
+      },
+      {
+        "id": "HR2",
+        "name": "Sultanpur National Park",
+        "established": 1989,
+        "famous_animals": ["Migratory birds", "Waterfowl"],
+        "famous_plants": ["Wetland vegetation", "Grasses"]
+      }
+    ]
+  },
+  {
+    "state": "Himachal Pradesh",
+    "national_parks": [
+      {
+        "id": "HP1",
+        "name": "Great Himalayan National Park",
+        "established": 1984,
+        "famous_animals": ["Snow leopard", "Himalayan brown bear", "Musk deer"],
+        "famous_plants": ["Alpine meadows", "Coniferous forests"]
+      },
+      {
+        "id": "HP2",
+        "name": "Inderkilla National Park",
+        "established": 2010,
+        "famous_animals": ["Himalayan tahr", "Chukar"],
+        "famous_plants": ["Temperate forest species"]
+      },
+      {
+        "id": "HP3",
+        "name": "Khirganga National Park",
+        "established": 2010,
+        "famous_animals": ["Barking deer", "Himalayan tahr"],
+        "famous_plants": ["Alpine vegetation", "Shrublands"]
+      },
+      {
+        "id": "HP4",
+        "name": "Pin Valley National Park",
+        "established": 1987,
+        "famous_animals": ["Himalayan snowcock", "Ibex"],
+        "famous_plants": ["Cold desert vegetation", "Juniper"]
+      },
+      {
+        "id": "HP5",
+        "name": "Simbalbara National Park",
+        "established": 2010,
+        "famous_animals": ["Goral", "Sambar deer"],
+        "famous_plants": ["Deciduous forest species"]
+      }
+    ]
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "national_parks": [
+      {
+        "id": "JK1",
+        "name": "City Forest (Salim Ali) National Park",
+        "established": 1992,
+        "famous_animals": ["Hangul (Kashmir stag)", "Leopards"],
+        "famous_plants": ["Subtropical forest species"]
+      },
+      {
+        "id": "JK2",
+        "name": "Dachigam National Park",
+        "established": 1981,
+        "famous_animals": ["Hangul (Kashmir stag)"],
+        "famous_plants": ["Temperate and subalpine vegetation"]
+      },
+      {
+        "id": "JK3",
+        "name": "Kishtwar National Park",
+        "established": 1981,
+        "famous_animals": ["Himalayan snowcock", "Brown bear"],
+        "famous_plants": ["Mixed coniferous forests"]
+      },
+      {
+        "id": "JK4",
+        "name": "Kazinag National Park",
+        "established": 2007,
+        "famous_animals": ["Markhor", "Himalayan musk deer"],
+        "famous_plants": ["Coniferous and broadleaf trees"]
+      }
+    ]
+  },
+  {
+    "state": "Jharkhand",
+    "national_parks": [
+      {
+        "id": "JH1",
+        "name": "Betla National Park",
+        "established": 1986,
+        "famous_animals": ["Tigers", "Elephants", "Indian bison", "Leopards"],
+        "famous_plants": ["Sal", "Teak", "Bamboo"]
+      }
+    ]
+  },
+  {
+    "state": "Karnataka",
+    "national_parks": [
+      {
+        "id": "KA1",
+        "name": "Anshi National Park",
+        "established": 1987,
+        "famous_animals": ["Tigers", "Elephants", "Sloth bears"],
+        "famous_plants": ["Deciduous and semi-evergreen forests"]
+      },
+      {
+        "id": "KA2",
+        "name": "Bandipur National Park",
+        "established": 1974,
+        "famous_animals": ["Bengal tigers", "Elephants", "Indian leopard"],
+        "famous_plants": ["Dry deciduous forests", "Teak"]
+      },
+      {
+        "id": "KA3",
+        "name": "Bannerghatta National Park",
+        "established": 1974,
+        "famous_animals": ["Tigers", "Lions", "Elephants", "Deer"],
+        "famous_plants": ["Urban scrub", "Deciduous trees"]
+      },
+      {
+        "id": "KA4",
+        "name": "Kudremukh National Park",
+        "established": 1987,
+        "famous_animals": ["Tigers", "Elephants", "Indian bison"],
+        "famous_plants": ["Shola forests", "Grasslands"]
+      },
+      {
+        "id": "KA5",
+        "name": "Nagarahole (Rajiv Gandhi) National Park",
+        "established": 1988,
+        "famous_animals": ["Tigers", "Elephants", "Sloth bears", "Indian gaur"],
+        "famous_plants": ["Tropical moist deciduous forests"]
+      }
+    ]
+  },
+  {
+    "state": "Kerala",
+    "national_parks": [
+      {
+        "id": "KL1",
+        "name": "Anamudi Shola National Park",
+        "established": 2003,
+        "famous_animals": ["Nilgiri tahr", "Elephants"],
+        "famous_plants": ["Shola forests", "Grasslands"]
+      },
+      {
+        "id": "KL2",
+        "name": "Eravikulam National Park",
+        "established": 1978,
+        "famous_animals": ["Nilgiri tahr"],
+        "famous_plants": ["Neelakurinji", "Montane grasslands"]
+      },
+      {
+        "id": "KL3",
+        "name": "Mathikettan Shola National Park",
+        "established": 2003,
+        "famous_animals": ["Elephants", "Leopards"],
+        "famous_plants": ["Montane forest species"]
+      },
+      {
+        "id": "KL4",
+        "name": "Pambadum Shola National Park",
+        "established": 2003,
+        "famous_animals": ["Birds", "Elephants"],
+        "famous_plants": ["Tropical montane forests"]
+      },
+      {
+        "id": "KL5",
+        "name": "Periyar National Park",
+        "established": 1982,
+        "famous_animals": ["Elephants", "Tigers", "Indian bison"],
+        "famous_plants": ["Evergreen forests", "Bamboo groves"]
+      },
+      {
+        "id": "KL6",
+        "name": "Silent Valley National Park",
+        "established": 1984,
+        "famous_animals": ["Lion-tailed macaque", "Elephants", "Indian bison"],
+        "famous_plants": ["Tropical evergreen forests", "Bamboo"]
+      }
+    ]
+  },
+  {
+    "state": "Ladakh",
+    "national_parks": [
+      {
+        "id": "LD1",
+        "name": "Hemis National Park",
+        "established": 1981,
+        "famous_animals": ["Snow leopards", "Himalayan brown bears"],
+        "famous_plants": ["Alpine vegetation", "Cold desert flora"]
+      }
+    ]
+  },
+  {
+    "state": "Lakshadweep",
+    "national_parks": []
+  },
+  {
+    "state": "Madhya Pradesh",
+    "national_parks": [
+      {
+        "id": "MP1",
+        "name": "Bandhavgarh National Park",
+        "established": 1968,
+        "famous_animals": ["Tigers", "Leopards", "Indian bison"],
+        "famous_plants": ["Dry deciduous trees", "Bamboo groves"]
+      },
+      {
+        "id": "MP2",
+        "name": "Fossil National Park",
+        "established": 1983,
+        "famous_animals": ["Reptiles", "Small mammals"],
+        "famous_plants": ["Fossilized plant remnants"]
+      },
+      {
+        "id": "MP3",
+        "name": "Indira Priyadarshini Pench National Park",
+        "established": 1975,
+        "famous_animals": ["Tigers", "Leopards", "Elephants"],
+        "famous_plants": ["Deciduous forests"]
+      },
+      {
+        "id": "MP4",
+        "name": "Kanha National Park",
+        "established": 1955,
+        "famous_animals": ["Tigers", "Elephants", "Barasingha (swamp deer)"],
+        "famous_plants": ["Sal", "Bamboo", "Teak"]
+      },
+      {
+        "id": "MP5",
+        "name": "Madhav National Park",
+        "established": 1959,
+        "famous_animals": ["Deer", "Tigers", "Leopards"],
+        "famous_plants": ["Dry deciduous trees"]
+      },
+      {
+        "id": "MP6",
+        "name": "Panna National Park",
+        "established": 1981,
+        "famous_animals": ["Tigers", "Gharials", "Sloth bears"],
+        "famous_plants": ["Mixed deciduous forests"]
+      },
+      {
+        "id": "MP7",
+        "name": "Sanjay National Park",
+        "established": 1981,
+        "famous_animals": ["Tigers", "Elephants", "Leopards"],
+        "famous_plants": ["Dry deciduous vegetation"]
+      },
+      {
+        "id": "MP8",
+        "name": "Satpura National Park",
+        "established": 1981,
+        "famous_animals": ["Tigers", "Sloth bears", "Deer"],
+        "famous_plants": ["Tropical dry deciduous forests"]
+      },
+      {
+        "id": "MP9",
+        "name": "Van Vihar National Park",
+        "established": 1979,
+        "famous_animals": ["Elephants", "Deer", "Peacocks"],
+        "famous_plants": ["Urban forest species", "Mixed trees"]
+      }
+    ]
+  },
+  {
+    "state": "Maharashtra",
+    "national_parks": [
+      {
+        "id": "MH1",
+        "name": "Chandoli National Park",
+        "established": 2004,
+        "famous_animals": ["Tigers", "Leopards", "Sloth bears"],
+        "famous_plants": ["Dry deciduous forests", "Bamboo groves"]
+      },
+      {
+        "id": "MH2",
+        "name": "Gugamal National Park",
+        "established": 1975,
+        "famous_animals": ["Tigers", "Leopards"],
+        "famous_plants": ["Dry deciduous vegetation"]
+      },
+      {
+        "id": "MH3",
+        "name": "Nawegaon National Park",
+        "established": 1975,
+        "famous_animals": ["Elephants", "Leopards"],
+        "famous_plants": ["Deciduous and semi-evergreen forests"]
+      },
+      {
+        "id": "MH4",
+        "name": "Pench (Jawaharlal Nehru) National Park",
+        "established": 1975,
+        "famous_animals": ["Tigers", "Leopards", "Wild boar"],
+        "famous_plants": ["Tropical dry deciduous forests"]
+      },
+      {
+        "id": "MH5",
+        "name": "Sanjay Gandhi (Borivali) National Park",
+        "established": 1983,
+        "famous_animals": ["Indian leopard", "Rhesus macaque"],
+        "famous_plants": ["Urban scrub", "Semi-evergreen species"]
+      },
+      {
+        "id": "MH6",
+        "name": "Tadoba National Park",
+        "established": 1955,
+        "famous_animals": ["Tigers", "Sloth bears", "Wild boar"],
+        "famous_plants": ["Sal forests", "Teak"]
+      }
+    ]
+  },
+  {
+    "state": "Manipur",
+    "national_parks": [
+      {
+        "id": "MN1",
+        "name": "Keibul-Lamjao National Park",
+        "established": 1977,
+        "famous_animals": ["Sangai (dancing deer)"],
+        "famous_plants": ["Phumdi vegetation", "Aquatic grasses"]
+      }
+    ]
+  },
+  {
+    "state": "Meghalaya",
+    "national_parks": [
+      {
+        "id": "MG1",
+        "name": "Balphakram National Park",
+        "established": 1985,
+        "famous_animals": ["Barking deer", "Golden cat"],
+        "famous_plants": ["Subtropical evergreen and deciduous trees"]
+      },
+      {
+        "id": "MG2",
+        "name": "Nokrek National Park",
+        "established": 1986,
+        "famous_animals": ["Endemic birds", "Leopards"],
+        "famous_plants": ["Tropical moist broadleaf forests", "Orchids"]
+      }
+    ]
+  },
+  {
+    "state": "Mizoram",
+    "national_parks": [
+      {
+        "id": "MZ1",
+        "name": "Murlen National Park",
+        "established": 1991,
+        "famous_animals": ["Tigers", "Leopards"],
+        "famous_plants": ["Montane sub-tropical forests", "Bamboo"]
+      },
+      {
+        "id": "MZ2",
+        "name": "Phawngpui Blue Mountain National Park",
+        "established": 1992,
+        "famous_animals": ["Birds", "Small mammals"],
+        "famous_plants": ["Blue pine", "Alpine shrubs"]
+      }
+    ]
+  },
+  {
+    "state": "Nagaland",
+    "national_parks": [
+      {
+        "id": "NG1",
+        "name": "Intanki National Park",
+        "established": 1993,
+        "famous_animals": ["Asian elephants", "Tigers"],
+        "famous_plants": ["Evergreen and semi-evergreen species"]
+      }
+    ]
+  },
+  {
+    "state": "Odisha",
+    "national_parks": [
+      {
+        "id": "OR1",
+        "name": "Bhitarkanika National Park",
+        "established": 1988,
+        "famous_animals": ["Saltwater crocodiles", "Olive ridley turtles", "Indian pythons"],
+        "famous_plants": ["Mangroves", "Coastal vegetation"]
+      },
+      {
+        "id": "OR2",
+        "name": "Simlipal National Park",
+        "established": 1980,
+        "famous_animals": ["Tigers", "Elephants", "Leopards", "Sloth bears"],
+        "famous_plants": ["Tropical dry deciduous trees", "Bamboo groves"]
+      }
+    ]
+  },
+  {
+    "state": "Puducherry",
+    "national_parks": []
+  },
+  {
+    "state": "Punjab",
+    "national_parks": []
+  },
+  {
+    "state": "Rajasthan",
+    "national_parks": [
+      {
+        "id": "RJ1",
+        "name": "Mukundra Hills National Park",
+        "established": 2006,
+        "famous_animals": ["Desert foxes", "Chinkara"],
+        "famous_plants": ["Arid scrub", "Desert grasses"]
+      },
+      {
+        "id": "RJ2",
+        "name": "Desert National Park",
+        "established": 1992,
+        "famous_animals": ["Great Indian bustard", "Desert fox", "Chinkara"],
+        "famous_plants": ["Arid desert vegetation", "Cacti"]
+      },
+      {
+        "id": "RJ3",
+        "name": "Keoladeo Ghana National Park",
+        "established": 1981,
+        "famous_animals": ["Migratory waterfowl", "Birds"],
+        "famous_plants": ["Wetland vegetation", "Marsh grasses"]
+      },
+      {
+        "id": "RJ4",
+        "name": "Ranthambore National Park",
+        "established": 1980,
+        "famous_animals": ["Bengal tigers", "Leopards"],
+        "famous_plants": ["Dry deciduous scrub", "Thorny shrubs"]
+      },
+      {
+        "id": "RJ5",
+        "name": "Sariska National Park",
+        "established": 1992,
+        "famous_animals": ["Tigers", "Leopards", "Wild boar"],
+        "famous_plants": ["Dry deciduous forests", "Scrub vegetation"]
+      }
+    ]
+  },
+  {
+    "state": "Sikkim",
+    "national_parks": [
+      {
+        "id": "SK1",
+        "name": "Khangchendzonga National Park",
+        "established": 1977,
+        "famous_animals": ["Snow leopards", "Himalayan tahr", "Red panda"],
+        "famous_plants": ["Alpine meadows", "Rhododendrons", "Coniferous trees"]
+      }
+    ]
+  },
+  {
+    "state": "Tamil Nadu",
+    "national_parks": [
+      {
+        "id": "TN1",
+        "name": "Guindy National Park",
+        "established": 1976,
+        "famous_animals": ["Blackbucks", "Jackals", "Various birds"],
+        "famous_plants": ["Scrub vegetation", "Dry deciduous trees"]
+      },
+      {
+        "id": "TN2",
+        "name": "Gulf of Mannar Marine National Park",
+        "established": 1980,
+        "famous_animals": ["Sea turtles", "Dugongs", "Coral reef fish"],
+        "famous_plants": ["Coral reefs", "Mangroves"]
+      },
+      {
+        "id": "TN3",
+        "name": "Indira Gandhi (Annamalai) National Park",
+        "established": 1989,
+        "famous_animals": ["Tigers", "Elephants", "Leopards"],
+        "famous_plants": ["Deciduous and semi-evergreen trees"]
+      },
+      {
+        "id": "TN4",
+        "name": "Mudumalai National Park",
+        "established": 1990,
+        "famous_animals": ["Tigers", "Elephants", "Sloth bears"],
+        "famous_plants": ["Moist deciduous forests", "Bamboo"]
+      },
+      {
+        "id": "TN5",
+        "name": "Mukurthi National Park",
+        "established": 1990,
+        "famous_animals": ["Nilgiri tahr", "Elephants"],
+        "famous_plants": ["Shola forests", "Grasslands"]
+      }
+    ]
+  },
+  {
+    "state": "Telangana",
+    "national_parks": [
+      {
+        "id": "TG1",
+        "name": "Kasu Brahmananda Reddy National Park",
+        "established": 1994,
+        "famous_animals": ["Peacocks", "Small mammals"],
+        "famous_plants": ["Mixed deciduous urban species"]
+      },
+      {
+        "id": "TG2",
+        "name": "Mahaveer Harina Vanasthali National Park",
+        "established": 1994,
+        "famous_animals": ["Chinkara", "Nilgai"],
+        "famous_plants": ["Dry deciduous species"]
+      },
+      {
+        "id": "TG3",
+        "name": "Mrugavani National Park",
+        "established": 1994,
+        "famous_animals": ["Leopards", "Wild boar", "Deer"],
+        "famous_plants": ["Scrub vegetation", "Dry deciduous trees"]
+      }
+    ]
+  },
+  {
+    "state": "Tripura",
+    "national_parks": [
+      {
+        "id": "TR1",
+        "name": "Clouded Leopard National Park",
+        "established": 2007,
+        "famous_animals": ["Clouded leopards", "Deer"],
+        "famous_plants": ["Tropical semi-evergreen vegetation"]
+      },
+      {
+        "id": "TR2",
+        "name": "Bison (Rajbari) National Park",
+        "established": 2007,
+        "famous_animals": ["Bison", "Leopards"],
+        "famous_plants": ["Grasslands", "Tropical forest species"]
+      }
+    ]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "national_parks": [
+      {
+        "id": "UP1",
+        "name": "Dudhwa National Park",
+        "established": 1977,
+        "famous_animals": ["Tigers", "Barasingha (swamp deer)", "Indian rhinoceros"],
+        "famous_plants": ["Sal forests", "Grasslands"]
+      }
+    ]
+  },
+  {
+    "state": "Uttarakhand",
+    "national_parks": [
+      {
+        "id": "UK1",
+        "name": "Corbett National Park",
+        "established": 1936,
+        "famous_animals": ["Bengal tigers", "Elephants", "Leopards"],
+        "famous_plants": ["Sal", "Teak", "Bamboo"]
+      },
+      {
+        "id": "UK2",
+        "name": "Gangotri National Park",
+        "established": 1989,
+        "famous_animals": ["Snow leopards", "Himalayan tahr"],
+        "famous_plants": ["Alpine vegetation", "Subalpine shrubs"]
+      },
+      {
+        "id": "UK3",
+        "name": "Govind National Park",
+        "established": 1990,
+        "famous_animals": ["Tigers", "Elephants"],
+        "famous_plants": ["Mixed temperate forests"]
+      },
+      {
+        "id": "UK4",
+        "name": "Nanda Devi National Park",
+        "established": 1982,
+        "famous_animals": ["Tigers", "Himalayan black bears"],
+        "famous_plants": ["Alpine meadows", "Rhododendrons"]
+      },
+      {
+        "id": "UK5",
+        "name": "Rajaji National Park",
+        "established": 1983,
+        "famous_animals": ["Elephants", "Tigers", "Leopards"],
+        "famous_plants": ["Deciduous forests", "Bamboo groves"]
+      },
+      {
+        "id": "UK6",
+        "name": "Valley of Flowers National Park",
+        "established": 1982,
+        "famous_animals": ["Himalayan musk deer"],
+        "famous_plants": ["Alpine flowers", "Rhododendrons"]
+      }
+    ]
+  },
+  {
+    "state": "West Bengal",
+    "national_parks": [
+      {
+        "id": "WB1",
+        "name": "Buxa National Park",
+        "established": 1992,
+        "famous_animals": ["Tigers", "Elephants", "Leopards"],
+        "famous_plants": ["Tropical moist deciduous trees"]
+      },
+      {
+        "id": "WB2",
+        "name": "Gorumara National Park",
+        "established": 1992,
+        "famous_animals": ["Indian rhinoceros", "Elephants", "Deer"],
+        "famous_plants": ["Grasslands", "Moist deciduous forests"]
+      },
+      {
+        "id": "WB3",
+        "name": "Jaldapara National Park",
+        "established": 2014,
+        "famous_animals": ["Indian rhinoceros", "Elephants", "Tigers"],
+        "famous_plants": ["Riverine forests", "Grasslands"]
+      },
+      {
+        "id": "WB4",
+        "name": "Neora Valley National Park",
+        "established": 1986,
+        "famous_animals": ["Barking deer", "Red panda"],
+        "famous_plants": ["Subtropical broadleaf forests", "Orchids"]
+      },
+      {
+        "id": "WB5",
+        "name": "Singalila National Park",
+        "established": 1986,
+        "famous_animals": ["Barking deer", "Red panda"],
+        "famous_plants": ["Alpine vegetation", "Rhododendrons"]
+      },
+      {
+        "id": "WB6",
+        "name": "Sundarbans National Park",
+        "established": 1984,
+        "famous_animals": ["Royal Bengal tiger", "Saltwater crocodile", "Fishing cat"],
+        "famous_plants": ["Mangrove forests", "Salt-tolerant species"]
+      }
+    ]
+  }
+
+]
 
 
 export const groups: WordGroup[] = [
